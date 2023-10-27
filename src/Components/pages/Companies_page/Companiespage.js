@@ -5,21 +5,13 @@ const Companies = () => {
   return (
     <div className='company'>
       {companies.map((company, index) => (
-        <div key={index}>
-          <h2>{company.name}</h2>
-          <a href={company.link} target="_blank" rel="noopener noreferrer">
-            Visit Website
-          </a>
-          <hr
-         style={{
-          background: 'blue', 
-          color: 'blue',
-          borderColor: 'blue',
-          height: '3px',
-          width: '100%',
-        }}
-      />
-        </div>
+  <div key={index} className="company-card">
+    <h2>{company.name}</h2>
+    <p>{company.details}</p>
+    <a href={company.link} target="_blank" rel="noopener noreferrer">
+      Visit Website
+    </a>
+  </div>
       ))}
     </div>
   );

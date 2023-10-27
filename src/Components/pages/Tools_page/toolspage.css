@@ -1,10 +1,10 @@
-/* PeopleCards.css */
-.people-container {
+/* Tool.css */
+.tool-container {
     display: flex;
     flex-wrap: wrap;
   }
   
-  .person-card {
+  .tool-card {
     width: 310px;
     height: 140px;
     border: 1px solid #ddd;
@@ -13,23 +13,17 @@
     padding: 10px;
     background-color: #fff;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-     display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
   }
   
-  .person-card h2 {
-    font-size: 18px;
+  .tool-card h2 {
+    font-size: 20px;
     margin: 0;
   }
   
-  .person-card p {
-    display: block;
-    font-size: 14px;
-    margin: 10px 0;
-  }
-  
-  .person-card a {
+  .tool-card a {
     text-decoration: none;
     background-color: #0074cc;
     color: #fff;
@@ -39,7 +33,7 @@
     justify-content: space-around;
   }
   
-  .person-card a:hover {
+  .tool-card a:hover {
     background-color: #0055a5;
   }
   

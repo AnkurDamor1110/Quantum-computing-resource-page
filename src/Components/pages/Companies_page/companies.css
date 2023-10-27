@@ -1,6 +1,46 @@
-.company{
-    height: 100vh;
+/* Updated CSS for company cards */
+.company {
+    /* height: 100%; */
     width: 70%;
     border: 2px solid black;
     margin-bottom: 20px;
-}
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .company-card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the company name */
+  .company-card h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  /* Style the company details */
+  .company-card p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  /* Style the "Visit Website" link */
+  .company-card a {
+    text-decoration: none;
+    background-color: #0074cc;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .company-card a:hover {
+    background-color: #0055a5;
+  }
+  

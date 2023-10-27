@@ -2,8 +2,10 @@ import React from "react";
 import Navbar from "./Components/Navbar";
 import HomePage from "./Components/pages/Home_page/Home";
 import Companiespage from "./Components/pages/Companies_page/Companiespage";
+import Toolspage from "./Components/pages/Tools_page/Toolspage";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; // Use BrowserRouter here
-
+import Simulatorpage from "./Components/pages/Simulators_page/Simulatorspage";
+import WorkingPeoplepage from "./Components/pages/Workingpeople_page/Workingpeoplepage";
 const Home = () => {
   return (
     <>
@@ -32,7 +34,7 @@ const Researchpapers = () => {
       <Navbar />
       <section className="hero-section">
         <p>Welcome to </p>
-        <h1></h1>
+
       </section>
     </>
   );
@@ -43,8 +45,8 @@ const Tools = () => {
     <>
       <Navbar />
       <section className="hero-section">
-        <p>Welcome to </p>
-        <h1></h1>
+        <Toolspage/>
+        
       </section>
     </>
   );
@@ -62,13 +64,45 @@ const Tutorials = () => {
   );
 };
 
-const Projects  = () => {
+const YouTubeContent = () => {
   return (
     <>
       <Navbar />
       <section className="hero-section">
         <p>Welcome to </p>
         <h1></h1>
+      </section>
+    </>
+  );
+};
+const Courses = () => {
+  return (
+    <>
+      <Navbar />
+      <section className="hero-section">
+        <p>Welcome to </p>
+        <h1></h1>
+      </section>
+    </>
+  );
+};
+const Books = () => {
+  return (
+    <>
+      <Navbar />
+      <section className="hero-section">
+        <p>Welcome to </p>
+        <h1></h1>
+      </section>
+    </>
+  );
+};
+const Simulators = () => {
+  return (
+    <>
+      <Navbar />
+      <section className="hero-section">
+        <Simulatorpage/>
       </section>
     </>
   );
@@ -92,6 +126,17 @@ const WorkingPeople = () => {
     <>
       <Navbar />
       <section className="hero-section">
+        <WorkingPeoplepage/>
+      </section>
+    </>
+  );
+};
+
+const Patents = () => {
+  return (
+    <>
+      <Navbar />
+      <section className="hero-section">
         <p>Welcome to </p>
         <h1></h1>
       </section>
@@ -108,10 +153,16 @@ const App = () => {
         <Route path="/researchpapers" element={<Researchpapers />} />
         <Route path="/tools" element={<Tools />} />
         <Route path="/tutorials" element={<Tutorials />} />
-        <Route path="/projects" element={<Projects />} />
+      
+        <Route path="/youtubecontent" element={<YouTubeContent />} />
+        <Route path="/courses" element={<Courses />} />
+        <Route path="/books" element={<Books />} />
+       
+
+        <Route path="/simulators" element={<Simulators />} />
         <Route path="/workshops" element={<Workshops />} />
         <Route path="/workingpeople" element={<WorkingPeople />} />
-
+        <Route path="/patents" element={<Patents />} />
       </Routes>
     </Router>
   );
