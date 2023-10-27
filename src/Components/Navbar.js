@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./navbar.css";
 
-
+import { GiHamburgerMenu } from "react-icons/gi";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -12,10 +12,12 @@ const Navbar = () => {
         {/* 1st logo part  */}
         <div className="logo">
           <h2>
+          <img src="../images/logo.jpeg"></img>
             <span>Q</span>uantum
             <span>C</span>omputing
-            <p>Gupta Lab</p>
-          </h2>
+            
+           
+            </h2>
         </div>
 
         {/* 2nd menu part  */}
@@ -36,23 +38,33 @@ const Navbar = () => {
             <li>
               <NavLink to="/tools">Tools</NavLink>
             </li>
-            <li>
-              <NavLink to="/tutorials">Tutorials</NavLink>
+            <li className="hoverable">
+              <span>Tutorials</span>
+              <div className="sub-menu">
+                <ul>
+                  <li>
+                  <NavLink to="/youtubecontent">YouTube Content</NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/courses">Courses</NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/books">Books</NavLink>
+                  </li>
+                </ul>
+              </div>
             </li>
             <li>
-              <NavLink to="/projects">projects</NavLink>
+              <NavLink to="/projects">Projects</NavLink>
+            </li>
+            <li>
+              <NavLink to="/patents">Patents</NavLink>
             </li>
             <li>
               <NavLink to="/workshops">workshops</NavLink>
             </li>
             <li>
               <NavLink to="/workingpeople">working people</NavLink>
-            </li>
-            <li>
-              <NavLink to="/contact">contact</NavLink>
-            </li>
-            <li>
-              <NavLink to="/contact">contact</NavLink>
             </li>
           </ul>
         </div>
@@ -86,7 +98,7 @@ const Navbar = () => {
           {/* hamburget menu start  */}
           <div className="hamburger-menu">
             <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
-              {/* <GiHamburgerMenu /> */}
+              <GiHamburgerMenu />
             </a>
           </div>
         </div>

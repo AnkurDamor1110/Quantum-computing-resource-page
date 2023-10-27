@@ -25,6 +25,52 @@ function Home() {
   <li>YouTube and Online Courses</li>
 </ul>
 
+<ul>
+  <li>Companies working on Quantum computing</li>
+  <li>Research papers on Quantum computing</li>
+  <li>Tools for Quantum computing</li>
+  <li>Tutorials on Quantum computing</li>
+  <li>Open source projects on Quantum computing</li>
+  <li>News and Updates</li>
+  <li>Workshops and events related to Quantum computing</li>
+  <li>People working on Quantum computing</li>
+  <li>YouTube and Online Courses</li>
+</ul>
+
+<ul>
+  <li>Companies working on Quantum computing</li>
+  <li>Research papers on Quantum computing</li>
+  <li>Tools for Quantum computing</li>
+  <li>Tutorials on Quantum computing</li>
+  <li>Open source projects on Quantum computing</li>
+  <li>News and Updates</li>
+  <li>Workshops and events related to Quantum computing</li>
+  <li>People working on Quantum computing</li>
+  <li>YouTube and Online Courses</li>
+</ul>
+<ul>
+  <li>Companies working on Quantum computing</li>
+  <li>Research papers on Quantum computing</li>
+  <li>Tools for Quantum computing</li>
+  <li>Tutorials on Quantum computing</li>
+  <li>Open source projects on Quantum computing</li>
+  <li>News and Updates</li>
+  <li>Workshops and events related to Quantum computing</li>
+  <li>People working on Quantum computing</li>
+  <li>YouTube and Online Courses</li>
+</ul>
+
+<ul>
+  <li>Companies working on Quantum computing</li>
+  <li>Research papers on Quantum computing</li>
+  <li>Tools for Quantum computing</li>
+  <li>Tutorials on Quantum computing</li>
+  <li>Open source projects on Quantum computing</li>
+  <li>News and Updates</li>
+  <li>Workshops and events related to Quantum computing</li>
+  <li>People working on Quantum computing</li>
+  <li>YouTube and Online Courses</li>
+</ul>
 
     </div>
   )

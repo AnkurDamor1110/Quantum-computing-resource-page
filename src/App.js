@@ -26,7 +26,7 @@ const Companies = () => {
   );
 };
 
-const Service = () => {
+const Researchpapers = () => {
   return (
     <>
       <Navbar />
@@ -38,7 +38,56 @@ const Service = () => {
   );
 };
 
-const Contact = () => {
+const Tools = () => {
+  return (
+    <>
+      <Navbar />
+      <section className="hero-section">
+        <p>Welcome to </p>
+        <h1></h1>
+      </section>
+    </>
+  );
+};
+
+const Tutorials = () => {
+  return (
+    <>
+      <Navbar />
+      <section className="hero-section">
+        <p>Welcome to </p>
+        <h1></h1>
+      </section>
+    </>
+  );
+};
+
+const Projects  = () => {
+  return (
+    <>
+      <Navbar />
+      <section className="hero-section">
+        <p>Welcome to </p>
+        <h1></h1>
+      </section>
+    </>
+  );
+};
+
+const Workshops = () => {
+  return (
+    <>
+      <Navbar />
+      <section className="hero-section">
+        <p>Welcome to </p>
+        <h1></h1>
+      </section>
+    </>
+  );
+};
+
+
+const WorkingPeople = () => {
   return (
     <>
       <Navbar />
@@ -56,8 +105,13 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/companies" element={<Companies />} />
-        <Route path="/service" element={<Service />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/researchpapers" element={<Researchpapers />} />
+        <Route path="/tools" element={<Tools />} />
+        <Route path="/tutorials" element={<Tutorials />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/workshops" element={<Workshops />} />
+        <Route path="/workingpeople" element={<WorkingPeople />} />
+
       </Routes>
     </Router>
   );

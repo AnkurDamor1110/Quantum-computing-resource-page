@@ -7,7 +7,6 @@ const Companies = () => {
       {companies.map((company, index) => (
         <div key={index}>
           <h2>{company.name}</h2>
-          <p>{company.details}</p>
           <a href={company.link} target="_blank" rel="noopener noreferrer">
             Visit Website
           </a>
