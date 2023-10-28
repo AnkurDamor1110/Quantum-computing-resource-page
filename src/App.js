@@ -6,6 +6,8 @@ import Toolspage from "./Components/pages/Tools_page/Toolspage";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; // Use BrowserRouter here
 import Simulatorpage from "./Components/pages/Simulators_page/Simulatorspage";
 import WorkingPeoplepage from "./Components/pages/Workingpeople_page/Workingpeoplepage";
+import Articlespage from "./Components/pages/Articles_page/Articlespage";
+import Researchpaperpage from "./Components/pages/Researchpaper_page/Researchpaperpage"
 const Home = () => {
   return (
     <>
@@ -33,7 +35,7 @@ const Researchpapers = () => {
     <>
       <Navbar />
       <section className="hero-section">
-        <p>Welcome to </p>
+        <Researchpaperpage/>
 
       </section>
     </>
@@ -143,7 +145,16 @@ const Patents = () => {
     </>
   );
 };
-
+const Articles = () => {
+  return (
+    <>
+      <Navbar />
+      <section className="hero-section">
+        <Articlespage/>
+      </section>
+    </>
+  );
+};
 const App = () => {
   return (
     <Router>
@@ -163,6 +174,7 @@ const App = () => {
         <Route path="/workshops" element={<Workshops />} />
         <Route path="/workingpeople" element={<WorkingPeople />} />
         <Route path="/patents" element={<Patents />} />
+        <Route path="/articles" element={<Articles />} />
       </Routes>
     </Router>
   );

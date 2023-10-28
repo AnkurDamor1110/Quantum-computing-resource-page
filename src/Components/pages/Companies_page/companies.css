@@ -29,6 +29,7 @@
   .company-card p {
     font-size: 16px;
     margin: 10px 0;
+    display: block;
   }
   
   /* Style the "Visit Website" link */

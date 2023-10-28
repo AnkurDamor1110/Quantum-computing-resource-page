@@ -1,0 +1,44 @@
+/* TopicCards.css */
+.topic-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .topic-card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .topic-card h2 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .topic-card p {
+    font-size: 14px;
+    margin: 10px 0;
+    display: block;
+  }
+  
+  .topic-card a {
+    text-decoration: none;
+    background-color: #0074cc;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .topic-card a:hover {
+    background-color: #0055a5;
+  }
+  

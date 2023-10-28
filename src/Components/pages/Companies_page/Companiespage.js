@@ -4,14 +4,19 @@ import './companies.css';
 const Companies = () => {
   return (
     <div className='company'>
-      {companies.map((company, index) => (
-  <div key={index} className="company-card">
-    <h2>{company.name}</h2>
-    <p>{company.details}</p>
-    <a href={company.link} target="_blank" rel="noopener noreferrer">
-      Visit Website
-    </a>
-  </div>
+      {companies.map((companyGroup, index) => (
+        <div key={index}>
+          <h2>{companyGroup.company_type}</h2>
+          {companyGroup.company.map((company, innerIndex) => (
+            <div key={innerIndex} className='company-card'>
+              <h2>{company.name}</h2>
+              <p>{company.details}</p>
+              <a href={company.url} target="_blank" rel="noopener noreferrer">
+                Visit Website
+              </a>
+            </div>
+          ))}
+        </div>
       ))}
     </div>
   );

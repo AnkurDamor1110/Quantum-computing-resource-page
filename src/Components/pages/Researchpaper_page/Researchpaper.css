@@ -1,0 +1,35 @@
+/* PaperCard.css */
+.paper-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    max-width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .paper-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .paper-card p {
+    color: #666;
+  }
+  
+  .paper-card a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .paper-card a:hover {
+    background-color: #0056b3;
+  }
+  
