@@ -63,13 +63,24 @@ const Navbar = () => {
             <li>
               <NavLink to="/workshops">workshops</NavLink>
             </li>
-            <li>
-              <NavLink to="/workingpeople">working people</NavLink>
-            </li>
+            <li className="hoverable">
+              <span>Working People</span>
+              <div className="sub-menu">
+                <ul>
+                  <li>
+                  <NavLink to="/workingpeopleindia">Working People India</NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/workingpeople">Working People</NavLink>
+                  </li>
+                </ul>
+                </div>
+                </li>
             <li>
               <NavLink to="/articles">Article</NavLink>
             </li>
           </ul>
+          
         </div>
 
         {/* 3rd social media links */}

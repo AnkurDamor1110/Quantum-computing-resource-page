@@ -10,18 +10,28 @@
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
-  
+  .company-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
   .company-card {
-    background-color: #fff;
-    padding: 20px;
+    width: 310px;
+    height: 140px;
+    background-color: #f5f5f5;
     border: 1px solid #ddd;
     border-radius: 5px;
-    margin-bottom: 20px;
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
   
   /* Style the company name */
-  .company-card h2 {
-    font-size: 24px;
+  .company-card h3 {
+    font-size: 20px;
     margin: 0;
   }
   
@@ -29,7 +39,6 @@
   .company-card p {
     font-size: 16px;
     margin: 10px 0;
-    display: block;
   }
   
   /* Style the "Visit Website" link */
@@ -39,6 +48,8 @@
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
   }
   
   .company-card a:hover {

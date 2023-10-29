@@ -6,8 +6,11 @@ import Toolspage from "./Components/pages/Tools_page/Toolspage";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; // Use BrowserRouter here
 import Simulatorpage from "./Components/pages/Simulators_page/Simulatorspage";
 import WorkingPeoplepage from "./Components/pages/Workingpeople_page/Workingpeoplepage";
+import WorkingPeopleIndiapage from "./Components/pages/Workingpeople_page/WorkingPeopleIndiapage";
 import Articlespage from "./Components/pages/Articles_page/Articlespage";
 import Researchpaperpage from "./Components/pages/Researchpaper_page/Researchpaperpage"
+import Bookspage from "./Components/pages/Tutorials_page/Bookspage"
+import Workshopspage from "./Components/pages/Workshops_page/Workshopspage";
 const Home = () => {
   return (
     <>
@@ -93,8 +96,7 @@ const Books = () => {
     <>
       <Navbar />
       <section className="hero-section">
-        <p>Welcome to </p>
-        <h1></h1>
+        <Bookspage/>
       </section>
     </>
   );
@@ -115,8 +117,7 @@ const Workshops = () => {
     <>
       <Navbar />
       <section className="hero-section">
-        <p>Welcome to </p>
-        <h1></h1>
+        <Workshopspage/>
       </section>
     </>
   );
@@ -134,6 +135,16 @@ const WorkingPeople = () => {
   );
 };
 
+const WorkingPeopleIndia = () => {
+  return (
+    <>
+      <Navbar />
+      <section className="hero-section">
+        <WorkingPeopleIndiapage/>
+      </section>
+    </>
+  );
+};
 const Patents = () => {
   return (
     <>
@@ -173,6 +184,8 @@ const App = () => {
         <Route path="/simulators" element={<Simulators />} />
         <Route path="/workshops" element={<Workshops />} />
         <Route path="/workingpeople" element={<WorkingPeople />} />
+        <Route path="/workingpeopleindia" element={<WorkingPeopleIndia />} />
+
         <Route path="/patents" element={<Patents />} />
         <Route path="/articles" element={<Articles />} />
       </Routes>
