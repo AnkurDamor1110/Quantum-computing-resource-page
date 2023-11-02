@@ -39,6 +39,7 @@ li {
   grid-column: 0/3;
   justify-content: start;
   align-items: center;
+  display: flex;
 }
 
 .menu-link {
@@ -116,7 +117,7 @@ li {
 .logo img{
   width: 80px;
   height: 80px;
-  margin-left: 80px;
+  /* margin-left: 80px; */
 }
 .logo h2 span {
   font-size: 3.5rem;
@@ -160,7 +161,7 @@ li {
 }
 
 /* responsive css style  */
-@media (max-width: 998px) {
+@media (max-width: 1280px) {
   .main-nav {
     height: 7rem;
     grid-template-columns: 2rem 2fr 3fr 2rem 2rem;

@@ -11,13 +11,16 @@ const Navbar = () => {
       <nav className="main-nav">
         {/* 1st logo part  */}
         <div className="logo">
-          <h2>
-          <img src="../images/logo.jpeg"></img>
+        <img src="../images/logo.jpeg"></img>
+          {/* <h2 className="resource">
+         
+            <span>R</span>resource
+            <div>
             <span>Q</span>uantum
             <span>C</span>omputing
-            
+            </div>
            
-            </h2>
+            </h2> */}
         </div>
 
         {/* 2nd menu part  */}
