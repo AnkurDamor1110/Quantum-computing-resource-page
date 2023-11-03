@@ -11,6 +11,7 @@ import Articlespage from "./Components/pages/Articles_page/Articlespage";
 import Researchpaperpage from "./Components/pages/Researchpaper_page/Researchpaperpage"
 import Bookspage from "./Components/pages/Tutorials_page/Bookspage"
 import Workshopspage from "./Components/pages/Workshops_page/Workshopspage";
+import Patentspage from "./Components/pages/Patents_page/Patentspage";
 const Home = () => {
   return (
     <>
@@ -150,8 +151,7 @@ const Patents = () => {
     <>
       <Navbar />
       <section className="hero-section">
-        <p>Welcome to </p>
-        <h1></h1>
+        <Patentspage/>
       </section>
     </>
   );
