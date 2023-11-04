@@ -13,7 +13,7 @@ const Home = () => {
         <div className="row">
           <div className="col text-center">
             <h2>Quantum Computing</h2>
-          </div>
+          </div> 
         </div>
       </div>
     </div>
