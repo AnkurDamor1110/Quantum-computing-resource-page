@@ -11,7 +11,7 @@ const Bookspage = () => {
           <h2 className="book-title">{book.Title }</h2>
           <p className="book-author">Author: {book.AuthorName}</p>
           <a className="book-link" href={book.URL} target="_blank" rel="noopener noreferrer">
-            Visit Book
+            Visit Course
           </a>
         </div>
       ))}

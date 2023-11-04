@@ -13,7 +13,7 @@ import Bookspage from "./Components/pages/Tutorials_page/Bookspage"
 import Workshopspage from "./Components/pages/Workshops_page/Workshopspage";
 import Patentspage from "./Components/pages/Patents_page/Patentspage";
 import Footer from "./Components/pages/Footer/Footer";
-// import Courses from "./Components/pages/Tutorials_page/Courses"
+import Coursescard from "./Components/pages/Tutorials_page/Courses"
 import YoutubeCards from "./Components/pages/Tutorials_page/YouTube";
 const Home = () => {
   return (
@@ -90,7 +90,7 @@ const Courses = () => {
     <>
       <Navbar />
       <section className="hero-section">
-        {/* <Courses/> */}
+        <Coursescard/>
       </section>
     </>
   );
