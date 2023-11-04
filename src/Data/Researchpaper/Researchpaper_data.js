@@ -24,11 +24,10 @@ const ResearchPapper= [
           URL: 'https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/cbic.202300120'
         },
         {
-          Title: 'Quantum Computing and AI: A',
+          Title: 'Quantum Computing and AI: A Quantum Leap in Intelligence',
           Author: 'Abu Rayhan, Shahana Rayhan',
           URL: 'https://www.researchgate.net/profile/Abu-Rayhan-11/publication/372722253_Quantum_Computing_and_AI_A_Quantum_Leap_in_Intelligence/links/64c4bac2141074110ee2c469/Quantum-Computing-and-AI-A-Quantum-Leap-in-Intelligence.pdf'
         },
-        { Title: 'Quantum Leap in Intelligence' },
         {
           Title: 'Fusion-based quantum computation',
           Author: 'Sara Bartolucci, Patrick Birchall, Hector Bombín, Hugo Cable, Chris Dawson, Mercedes Gimeno-Segovia, Eric Johnston, Konrad Kieling, Naomi Nickerson, Mihir Pant, Fernando Pastawski, Terry Rudolph & Chris Sparrow ',
