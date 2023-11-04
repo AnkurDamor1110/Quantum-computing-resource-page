@@ -1,0 +1,41 @@
+/* patents.css */
+
+.patent-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .patent-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .patent-card h2 {
+    font-size: 18px;
+    margin: 0 0 10px;
+  }
+  
+  .patent-card p {
+    font-size: 14px;
+    margin: 0 0 10px;
+  }
+  
+  .patent-card a {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .patent-card a:hover {
+    background-color: #0056b3;
+  }
+  
