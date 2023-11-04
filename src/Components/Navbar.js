@@ -80,7 +80,7 @@ const Navbar = () => {
                 </div>
                 </li>
             <li>
-              <NavLink to="/articles">Article</NavLink>
+              <NavLink to="/articles">News</NavLink>
             </li>
           </ul>
           
