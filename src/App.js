@@ -12,13 +12,16 @@ import Researchpaperpage from "./Components/pages/Researchpaper_page/Researchpap
 import Bookspage from "./Components/pages/Tutorials_page/Bookspage"
 import Workshopspage from "./Components/pages/Workshops_page/Workshopspage";
 import Patentspage from "./Components/pages/Patents_page/Patentspage";
+import Footer from "./Components/pages/Footer/Footer";
 const Home = () => {
   return (
     <>
       <Navbar />
       <section className="hero-section">
         <HomePage/>
+        <Footer/>
       </section>
+      
     </>
   );
 };
