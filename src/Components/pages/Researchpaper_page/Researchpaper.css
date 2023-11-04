@@ -5,14 +5,26 @@
     padding: 20px;
     margin: 20px;
     /* max-width: 300px; */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f4f4f4;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
   
   .paper-card h2 {
     /* font-size: 20px; */
     margin-bottom: 10px;
+    
   }
-  
+  .year-header{
+    border: 1px solid black;
+    /* width: 20%; */
+    border-radius: 5px;
+    display: flex;
+    justify-content: center
+  }
+  .year-header:hover{
+    background-color: gray;
+    color: #fff;
+  }
   .paper-card p {
     color: #666;
   }
@@ -27,6 +39,7 @@
     border-radius: 5px;
     text-align: center;
     font-weight: bold;
+    width: 30%;
   }
   
   .paper-card a:hover {
@@ -35,10 +48,10 @@
   
   /* SimulatorCards.css */
 .simulator-container {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-evenly; */
 
 }
 
@@ -72,13 +85,4 @@
 .simulator-card p {
   font-size: 16px;
   margin: 10px 0;
-}
-.simulator-card a {
-  text-decoration: none;
-  background-color: #0074cc;
-  color: #fff;
-  padding: 5px 10px;
-  border-radius: 5px;
-  display: flex;
-  justify-content: space-around;
 }

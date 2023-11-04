@@ -1,9 +1,11 @@
 /* patents.css */
 
 .patent-cards {
+  
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: space-around
   }
   
   .patent-card {
