@@ -4,17 +4,21 @@
   
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
     justify-content: space-around
   }
   
   .patent-card {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 300px;
+    /* height: 140px; */
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   
   .patent-card h2 {
@@ -35,9 +39,17 @@
     border-radius: 4px;
     text-decoration: none;
     transition: background-color 0.3s;
+    display: flex;
+    justify-content: center
   }
   
   .patent-card a:hover {
     background-color: #0056b3;
   }
+  
+  .patent-card:hover{
+    transform: translateY(-10px); 
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.947); 
+    }
+  
   

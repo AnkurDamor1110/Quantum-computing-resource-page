@@ -7,15 +7,16 @@
   
   .topic-card {
     width: 300px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    margin: 10px;
-    padding: 10px;
+    /* height: 140px; */
+    margin: 20px;
+    padding: 20px;
     background-color: #f4f4f4;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: left;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   
   .topic-card h2 {
@@ -42,4 +43,9 @@
   .topic-card a:hover {
     background-color: #0055a5;
   }
+
+  .topic-card:hover{
+    transform: translateY(-10px); 
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.947); 
+    }
   

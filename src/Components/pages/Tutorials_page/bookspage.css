@@ -6,12 +6,16 @@
   
   .book-card {
     width: 300px;
+    /* height: 150px; */
     margin: 20px;
     padding: 20px;
     background-color: #f4f4f4;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   
   .book-title {
@@ -39,3 +43,7 @@
     background-color: #0056b3;
   }
   
+  .book-card:hover{
+    transform: translateY(-10px); 
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.947); 
+    }

@@ -12,8 +12,8 @@ const YoutubeCards = () => {
           <div className="You-cards">
             {category.content.map((video, videoIndex) => (
               <div key={videoIndex} className="You-card">
-                <h3>{video['Title']}</h3>
-                <p>Channel: {video['channel']}</p>
+                <h3>{video.Title}</h3>
+                {/* <p>Channel: {video.channel}</p> */}
                 <a href={video.URL} target="_blank" rel="noopener noreferrer">
                   Watch Video
                 </a>
