@@ -1,0 +1,66 @@
+/* YoutubeCards.css */
+
+.youtube-cards {
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* gap: 20px; */
+    padding: 20px;
+  }
+  
+  .category {
+    flex: 1;
+    /* background-color: #f0f0f0; */
+    /* border: 1px solid #ccc; */
+    padding: 20px;
+  }
+  
+  .category h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .You-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+  }
+  
+  .You-card {
+    width: 300px;
+    /* height: 140px; */
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .You-card h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .You-card a {
+    text-decoration: none;
+    background-color: #0074cc;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .You-card a:hover {
+    text-decoration: underline;
+  }
+
+  .You-card:hover{
+    transform: translateY(-10px); 
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.947); 
+    }
+  

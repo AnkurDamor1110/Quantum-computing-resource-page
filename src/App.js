@@ -13,6 +13,8 @@ import Bookspage from "./Components/pages/Tutorials_page/Bookspage"
 import Workshopspage from "./Components/pages/Workshops_page/Workshopspage";
 import Patentspage from "./Components/pages/Patents_page/Patentspage";
 import Footer from "./Components/pages/Footer/Footer";
+import Coursescard from "./Components/pages/Tutorials_page/Courses"
+import YoutubeCards from "./Components/pages/Tutorials_page/YouTube";
 const Home = () => {
   return (
     <>
@@ -78,8 +80,7 @@ const YouTubeContent = () => {
     <>
       <Navbar />
       <section className="hero-section">
-        <p>Welcome to </p>
-        <h1></h1>
+        <YoutubeCards/>
       </section>
     </>
   );
@@ -89,8 +90,7 @@ const Courses = () => {
     <>
       <Navbar />
       <section className="hero-section">
-        <p>Welcome to </p>
-        <h1></h1>
+        <Coursescard/>
       </section>
     </>
   );
