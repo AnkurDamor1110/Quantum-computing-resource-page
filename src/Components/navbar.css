@@ -159,8 +159,8 @@ li {
     height: 8rem;
   }
   .logo img{
-    height: 60px;
-    width: 60px;
+    height: 65px;
+    width: 65px;
   }
 }
 
@@ -239,7 +239,7 @@ li {
 
 @media (max-width: 798px) {
   .main-nav {
-    height: 6rem;
+    height: 7rem;
     grid-template-columns: 1rem 2fr 1fr 1fr 1rem;
   }
 
@@ -263,7 +263,7 @@ li {
 
 @media (max-width: 520px) {
   .main-nav {
-    height: 6rem;
+    height: 8rem;
     grid-template-columns: 1rem 4fr 1fr 1fr 1rem;
   }
 
@@ -274,6 +274,7 @@ li {
 
   .logo h2 {
     font-size: 2rem;
+    margin-top: 15px;
   }
 
   .social-media {
@@ -287,7 +288,7 @@ li {
     display: block;
     font-size: 2.5rem;
   }
-
+  
   /* hero section  */
 
   .hero-section h1 {
