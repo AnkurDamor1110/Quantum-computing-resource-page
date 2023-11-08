@@ -1135,6 +1135,860 @@ const ResearchPapper= [
         },
       ],
     },
+    {
+      year: '2007',
+      pappers: [
+        {
+          Title: 'Optical Quantum Computing',
+          Author: "JEREMY L. O'BRIEN",
+          URL: 'https://www.science.org/doi/abs/10.1126/science.1142892'
+        },
+        {
+          Title: 'Classical and quantum computing',
+          URL: 'https://link.springer.com/chapter/10.1007/978-0-387-36944-0_13'
+        },
+        {
+          Title: 'Linear optical quantum computing with photonic qubits',
+          Author: 'Pieter Kok, W. J. Munro, Kae Nemoto, T. C. Ralph, Jonathan P. Dowling, and G. J. Milburn',
+          URL: 'https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.79.135'
+        },
+        {
+          Title: 'High-speed linear optics quantum computing using active feed-forward',
+          Author: 'Robert Prevedel, Philip Walther, Felix Tiefenbacher, Pascal Böhi, Rainer Kaltenbaek, Thomas Jennewein & Anton Zeilinger ',    
+          URL: 'https://www.nature.com/articles/nature05346'
+        },
+        {
+          Title: 'Quantum Computing with Collective Ensembles of Multilevel Systems',
+          Author: 'Quantum Computing with Collective Ensembles of Multilevel Systems',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.99.260501'
+        },
+        {
+          Title: 'Lectures on quantum information',
+          Author: 'Bruss, D;  Leuchs, G',
+          URL: 'https://www.osti.gov/etdeweb/biblio/20892772'
+        },
+        {
+          Title: 'Distributed quantum computation based on small quantum registers',
+          Author: 'Liang Jiang, Jacob M. Taylor, Anders S. Sørensen, and Mikhail D. Lukin',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.76.062323'
+        },
+        {
+          Title: 'Novel Schemes for Measurement-Based Quantum Computation',
+          Author: 'Novel Schemes for Measurement-Based Quantum Computation',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.98.220503'
+        },
+        {
+          Title: 'Fault-Tolerant Quantum Computation with High Threshold in Two Dimensions',
+          Author: 'Robert Raussendorf and Jim Harrington',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.98.190504'
+        },
+        {
+          Title: 'Effective Fault-Tolerant Quantum Computation with Slow Measurements',
+          Author: 'David P. DiVincenzo and Panos Aliferis',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.98.020501'
+        },
+        {
+          Title: 'Measurement-based quantum computation beyond the one-way model',
+          Author: 'Measurement-based quantum computation beyond the one-way model',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.76.052315'
+        },
+        {
+          Title: 'Quantum computing: beyond the limits of conventional computation',
+          Author: 'Marius Nagy &Selim G. Akl',
+          URL: 'https://www.tandfonline.com/doi/abs/10.1080/13547500600899209'
+        },
+        {
+          Title: 'Quantum computation and quantum information',
+          Author: 'THIERRY PAUL',
+          URL: 'https://www.cambridge.org/core/journals/mathematical-structures-in-computer-science/article/abs/quantum-computation-and-quantum-information/47880785D1C71744A34956230918888F'
+        },
+        {
+          Title: 'Simple Proof of Equivalence between Adiabatic Quantum Computation and the Circuit Model',
+          Author: 'Ari Mizel, Daniel A. Lidar, and Morgan Mitchell',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.99.070502'
+        },
+        {
+          Title: 'Scalable designs for quantum computing with rare-earth-ion-doped crystals',
+          Author: 'Janus H. Wesenberg, Klaus Mølmer, Lars Rippe, and Stefan Kröll',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.75.012304'
+        },
+        {
+          Title: 'Experimental Realization of One-Way Quantum Computing with Two-Photon Four-Qubit Cluster States',
+          Author: 'Kai Chen, Che-Ming Li, Qiang Zhang, Yu-Ao Chen, Alexander Goebel, Shuai Chen, Alois Mair, and Jian-Wei Pan',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.99.120503'
+        },
+        {
+          Title: 'Role of entanglement and correlations in mixed-state quantum computation',
+          Author: 'Role of entanglement and correlations in mixed-state quantum computation',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.75.042310'
+        },
+        {
+          Title: 'Diamond at the nanoscale: applications of diamond nanoparticles from cellular biomarkers to quantum computing',
+          Author: 'Katherine B Holtolt',
+          URL: 'https://royalsocietypublishing.org/doi/abs/10.1098/rsta.2007.0005'
+        },
+        {
+          Title: 'Generalized flow and determinism in measurement-based quantum computation',
+          Author: 'Daniel E Browne1, Elham Kashefi2, Mehdi Mhalla3 and Simon Perdrix4',
+          URL: 'https://iopscience.iop.org/article/10.1088/1367-2630/9/8/250/meta'
+        },
+        {
+          Title: 'Percolation, Renormalization, and Quantum Computing with Nondeterministic Gates',
+          Author: 'K. Kieling, T. Rudolph, and J. Eisert',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.99.130501'
+        },
+        {
+          Title: 'Applying evolutionary techniques to quantum computing problems',
+          Author: 'Steven R. Hutsell; Garrison W. Greenwood',
+          URL: 'https://ieeexplore.ieee.org/abstract/document/4425003?casa_token=3xXeVV5jAS0AAAAA:so6b7uDyBUzxTGPPTcn8J7jxqyDrCm51YzhbV5vuvbfqubxdupOGwCLiBXG3kiL0nJjp6uZyvw'
+        },
+        {
+          Title: 'Measurement-based quantum computation with the toric code states',
+          Author: 'Measurement-based quantum computation with the toric code states',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.76.022304'
+        },
+        {
+          Title: 'Quantum Computation using Vortices and Majorana Zero Modes of a px+ipy Superfluid of Fermionic Cold Atoms',
+          Author: 'Sumanta Tewari, S. Das Sarma, Chetan Nayak, Chuanwei Zhang, and P. Zoller',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.98.010506'
+        },
+      ],
+    },
+    {
+      year: '2006',
+      pappers: [
+        {
+          Title: 'Architectural implications of quantum computing technologies',
+          Author: 'Rodney Van Meter,Mark Oskin',
+          URL: 'https://dl.acm.org/doi/abs/10.1145/1126257.1126259?casa_token=EQXFnZ2F028AAAAA:wGwKw7EEi6ka_2lcywbgrdXGxgSE4vwnukAnprVmASNNVCQHFvW0aRi--ZZY4x24qJHXzPLo9nyi'
+        },
+        {
+          Title: 'Quantum computation by communication',
+          Author: 'T P Spiller1, Kae Nemoto2, Samuel L Braunstein3, W J Munro1,2, P van Loock2 and G J Milburn4',
+          URL: 'https://iopscience.iop.org/article/10.1088/1367-2630/8/2/030/meta'
+        },
+        {
+          Title: 'Quantum Computation as Geometry',
+          Author: 'MICHAEL A. NIELSEN, MARK R. DOWLING, MILE GU, AND ANDREW C. DOHERTY',
+          URL: 'https://www.science.org/doi/abs/10.1126/science.1121541'
+        },
+        {
+          Title: 'Optimal control, geometry, and quantum computing',
+          Author: 'Optimal control, geometry, and quantum computing',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.73.062323'
+        },
+        {
+          Title: 'Two-dimensional architectures for donor-based quantum computing',
+          Author: 'Two-dimensional architectures for donor-based quantum computing',
+          URL: 'https://journals.aps.org/prb/abstract/10.1103/PhysRevB.74.045311'
+        },
+        {
+          Title: 'Cluster-state quantum computation',
+          Author: 'Michael A. Nielsen',
+          URL: 'https://www.sciencedirect.com/science/article/abs/pii/S0034487706800145'
+        },
+        {
+          Title: 'Is the Brain a Quantum Computer?',
+          Author: 'Abninder Litt, Chris Eliasmith, Frederick W. Kroon, Steven Weinstein, Paul Thagard',
+          URL: 'https://onlinelibrary.wiley.com/doi/abs/10.1207/s15516709cog0000_59'
+        },
+        {
+          Title: 'Counterfactual quantum computation through quantum interrogation Nature',
+          Author: 'Onur Hosten, Matthew T. Rakher, Julio T. Barreiro, Nicholas A. Peters & Paul G. Kwiat ',
+          URL: 'https://www.nature.com/articles/nature04523'
+        },
+        {
+          Title: 'A layered software architecture for quantum computing design tools',
+          Author: 'K.M. Svore; A.V. Aho; A.W. Cross; I. Chuang; I.L. Markov',
+          URL: 'https://ieeexplore.ieee.org/abstract/document/1580386?casa_token=h80FzED6XfUAAAAA:ysLh8R3ns-5WAgvrEwmYH1WtJPu1TnN4n4OqQ8sergbughetsoius2CPja4Sgfkhdz673SzdDw'
+        },
+        {
+          Title: 'Spin-based quantum computing using electrons on liquid helium',
+          Author: 'S. A. Lyon,Phys. Rev. A',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.74.052338'
+        },
+        {
+          Title: 'Topological quantum computation ',
+          Author: 'Sankar Das Sarma; Michael Freedman; Chetan Nayak',
+          URL: 'https://pubs.aip.org/physicstoday/article-abstract/59/7/32/1040851/Topological-quantum-computationThe-search-for-a'
+        },
+        {
+          Title: 'Quantum computation and quantum information',
+          Author: 'Marius Nagy,Selim G. Akl',
+          URL: 'https://www.tandfonline.com/doi/abs/10.1080/17445760500355678'
+        },
+        {
+          Title: 'A Short Survey On Quantum Computers',
+          Author: 'Y. Kanamori,S.-M. Yoo,W.D. Pan &F.T. Sheldon',
+          URL: 'https://www.tandfonline.com/doi/abs/10.1080/1206212X.2006.11441807'
+        },
+        {
+          Title: 'A fault-tolerant one-way quantum computer',
+          Author: 'R. Raussendorf a, J. Harrington b, K. Goyal a',
+          URL: 'https://www.sciencedirect.com/science/article/abs/pii/S0003491606000236'
+        },
+        {
+          Title: 'Noise Thresholds for Optical Quantum Computers',
+          Author: 'Christopher M. Dawson, Henry L. Haselgrove, and Michael A. Nielsen',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.96.020501'
+        },
+        {
+          Title: 'Universal Resources for Measurement-Based Quantum Computation',
+          Author: 'Maarten Van den Nest, Akimasa Miyake, Wolfgang Dür, and Hans J. Briegel',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.97.150504'
+        },
+        {
+          Title: 'Universal quantum computation with the ν=5∕2 fractional quantum Hall state',
+          Author: 'Sergey Bravyi',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.73.042313'
+        },
+        {
+          Title: 'Towards a fullerene-based quantum computer',
+          Author: 'Simon C Benjamin1, Arzhang Ardavan2, G Andrew D Briggs1, David A Britz1, Daniel Gunlycke1, John Jefferson3, Mark A G Jones1, David F Leigh1, Brendon W Lovett1, Andrei N Khlobystov',
+          URL: 'https://iopscience.iop.org/article/10.1088/0953-8984/18/21/S12/meta'
+        },
+        {
+          Title: 'Error-correcting codes for adiabatic quantum computation',
+          Author: 'Stephen P. Jordan, Edward Farhi, and Peter W. Shor',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.74.052322'
+        },
+        {
+          Title: 'Schemes for robust quantum computation with polar molecules',
+          Author: 'S. F. Yelin, K. Kirby, and Robin Côté',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.74.050301'
+        },
+      ],
+    },
+    {
+      year: '2005',
+      pappers: [
+        {
+          Title: 'Quantum computing with realistically noisy devices',
+          Author: 'E. Knill',
+          URL: 'https://www.nature.com/articles/nature03350'
+        },
+        {
+          Title: 'Experimental one-way quantum computing',
+          Author: 'P. Walther, K. J. Resch, T. Rudolph, E. Schenck, H. Weinfurter, V. Vedral, M. Aspelmeyer & A. Zeilinger',
+          URL: 'https://www.nature.com/articles/nature03347'
+        },
+        {
+          Title: 'Quantum computers and quantum computations',
+          Author: "Kamil' A Valiev1",
+          URL: 'https://iopscience.iop.org/article/10.1070/PU2005v048n01ABEH002024/meta'
+        },
+        {
+          Title: 'Quantum computing, postselection, and probabilistic polynomial-time',
+          Author: 'Scott Aaronson',
+          URL: 'https://royalsocietypublishing.org/doi/abs/10.1098/rspa.2005.1546'
+        },
+        {
+          Title: 'Recipes for spin-based quantum computing',
+          Author: 'Veronica Cerletti1, W A Coish1, Oliver Gywat1 and Daniel Loss1',
+          URL: 'https://iopscience.iop.org/article/10.1088/0957-4484/16/4/R01/meta'
+        },
+        {
+          Title: 'Quantum computing and hidden variables',
+          Author: 'Scott Aaronson',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.71.032325'
+        },
+        {
+          Title: 'Simulated Quantum Computation of Molecular Energies',
+          Author: 'ALÁN ASPURU-GUZIK, ANTHONY D. DUTOI, PETER J. LOVE, AND MARTIN HEAD-GORDON',
+          URL: 'https://www.science.org/doi/abs/10.1126/science.1113479'
+        },
+        {
+          Title: 'Computing with spins: from classical to quantum computing',
+          Author: 'S. Bandyopadhyay',
+          URL: 'https://www.sciencedirect.com/science/article/abs/pii/S0749603604003234'
+        },
+        {
+          Title: 'Resource-Efficient Linear Optical Quantum Computation',
+          Author: 'Daniel E. Browne and Terry Rudolph',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.95.010501'
+        },
+        {
+          Title: 'Scalable quantum computing in the presence of large detected-error rates',
+          Author: 'E. Knill',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.71.042322'
+        },
+        {
+          Title: 'Repeat-Until-Success Linear Optics Distributed Quantum Computing',
+          Author: 'Yuan Liang Lim, Almut Beige, and Leong Chuan Kwek',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.95.030505'
+        },
+        {
+          Title: 'Universal quantum computation with ideal Clifford gates and noisy ancillas',
+          Author: 'Sergey Bravyi and Alexei Kitaev',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.71.022316'
+        },
+        {
+          Title: 'Weak nonlinearities: a new route to optical quantum computation',
+          Author: 'W J Munro1,2, K Nemoto1 and T P Spiller2',
+          URL: 'https://iopscience.iop.org/article/10.1088/1367-2630/7/1/137/meta'
+        },
+        {
+          Title: 'Efficient Quantum Computation with Probabilistic Quantum Gates',
+          Author: 'L.-M. Duan and R. Raussendorf',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.95.080503'
+        },
+        {
+          Title: 'Hybrid genetic algorithm based on quantum computing for numerical optimization and parameter estimation',
+          Author: 'Ling Wang a, Fang Tang b, Hao Wu a',
+          URL: 'https://www.sciencedirect.com/science/article/abs/pii/S0096300305001645'
+        },
+        {
+          Title: 'Quantum logic as motivated by quantum computing',
+          Author: 'J. Michael Dunn,Tobias J. Hagge,Lawrence S. Moss,Zhenghan Wang',
+          URL: 'https://www.cambridge.org/core/journals/journal-of-symbolic-logic/article/abs/quantum-logic-as-motivated-by-quantum-computing/3237472DD89CE4A3ABC5D2338803C3BC'
+        },
+        {
+          Title: 'Spin quantum computation in silicon nanostructures',
+          Author: 'S. Das Sarma a, Rogerio de Sousa b, Xuedong Hu c, Belita Koiller d',
+          URL: 'https://www.sciencedirect.com/science/article/abs/pii/S0038109804011007'
+        },
+        {
+          Title: 'Braid Topologies for Quantum Computation',
+          Author: 'N. E. Bonesteel, L. Hormozi, G. Zikos, and S. H. Simon',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.95.140503'
+        },
+        {
+          Title: 'A quantum computing primer for operator theorists',
+          Author: 'David W. Kribs',
+          URL: 'https://www.sciencedirect.com/science/article/pii/S0024379504004793'
+        },
+        {
+          Title: 'Efficient high-fidelity quantum computation using matter qubits and linear optics',
+          Author: 'Sean D. Barrett and Pieter Kok',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.71.060310'
+        },
+      ],
+    },
+    {
+      year: '2004',
+      pappers: [
+        {
+          Title: 'Spin-Based Quantum Dot Quantum Computing in Silicon',
+          Author: 'Mark A. Eriksson, Mark Friesen, Susan N. Coppersmith, Robert Joynt, Levente J. Klein, Keith Slinker, Charles Tahan, P. M. Mooney, J. O. Chu & S. J. Koester ',
+          URL: 'https://link.springer.com/article/10.1007/s11128-004-2224-z'
+        },
+        {
+          Title: 'Quantum computing without entanglement',
+          Author: 'Eli Biham a, Gilles Brassard b, Dan Kenigsberg a, Tal Mor',
+          URL: 'https://www.sciencedirect.com/science/article/pii/S0304397504001926'
+        },
+        {
+          Title: 'Challenges in Reliable Quantum Computing',
+          Author: 'Diana Franklin & Frederic T. Chong ',
+          URL: 'https://link.springer.com/chapter/10.1007/1-4020-8068-9_8'
+        },
+        {
+          Title: 'Charge-based quantum computing using single donors in semiconductors',
+          Author: 'L. C. L. Hollenberg, A. S. Dzurak, C. Wellard, A. R. Hamilton, D. J. Reilly, G. J. Milburn, and R. G. Clark',
+          URL: 'https://journals.aps.org/prb/abstract/10.1103/PhysRevB.69.113301'
+        },
+        {
+          Title: 'QUANTUM COMPUTATION BY MEASUREMENTS',
+          Author: 'DEBBIE W. LEUNG',
+          URL: 'https://www.worldscientific.com/doi/abs/10.1142/S0219749904000055'
+        },
+        {
+          Title: 'Optical Quantum Computation Using Cluster States',
+          Author: 'Michael A. Nielsen',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.93.040503'
+        },
+        {
+          Title: 'Scalable Architecture for Adiabatic Quantum Computing of Np-Hard Problems',
+          Author: 'W. M. Kaminsky & S. Lloyd ',
+          URL: 'https://link.springer.com/chapter/10.1007/978-1-4419-9092-1_25'
+        },
+        {
+          Title: 'Parallel quantum computing in a single ensemble quantum computer',
+          Author: 'Gui Lu Long and L. Xiao',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.69.052303'
+        },
+        {
+          Title: 'A Lambda Calculus for Quantum Computation',
+          Author: 'André van Tonder',
+          URL: 'https://epubs.siam.org/doi/abs/10.1137/S0097539703432165'
+        },
+        {
+          Title: 'Distributed quantum computing: a distributed Shor algorithm',
+          Author: 'Anocha Yimsiriwattana, Samuel J. Lomonaco Jr.',
+          URL: 'https://www.spiedigitallibrary.org/conference-proceedings-of-spie/5436/0000/Distributed-quantum-computing-a-distributed-Shor-algorithm/10.1117/12.546504.short?SSO=1'
+        },
+        {
+          Title: 'Quantum computing with superconductors',
+          Author: 'IEEE',
+          URL: 'https://ieeexplore.ieee.org/abstract/document/1335553'
+        },
+        {
+          Title: 'Quantum Computation and Lattice Problems',
+          Author: 'Oded Regev',
+          URL: 'https://epubs.siam.org/doi/abs/10.1137/S0097539703440678'
+        },
+        {
+          Title: 'Cavity quantum electrodynamics for superconducting electrical circuits: An architecture for quantum computation',
+          Author: 'Alexandre Blais, Ren-Shou Huang, Andreas Wallraff, S. M. Girvin, and R. J. Schoelkopf',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.69.062320'
+        },
+        {
+          Title: 'Quantum computing using single photons and the Zeno effect',
+          Author: 'J. D. Franson, B. C. Jacobs, and T. B. Pittman',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.70.062302'
+        },
+        {
+          Title: 'Valence-bond states for quantum computation',
+          Author: 'F. Verstraete and J. I. Cirac',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.70.060302'
+        },
+        {
+          Title: 'Realization of a Photonic Controlled-NOT Gate Sufficient for Quantum Computation',
+          Author: 'Sara Gasparoni, Jian-Wei Pan, Philip Walther, Terry Rudolph, and Anton Zeilinger',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.93.020504'
+        },
+        {
+          Title: 'Preparing High Purity Initial States for Nuclear Magnetic Resonance Quantum Computing',
+          Author: 'M. S. Anwar, D. Blazina, H. A. Carteret, S. B. Duckett, T. K. Halstead, J. A. Jones, C. M. Kozak, and R. J. K. Taylor',       
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.93.040501'
+        },
+        {
+          Title: 'Scaling Ion Trap Quantum Computation through Fast Quantum Gates',
+          Author: 'L.-M. Duan',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.93.100502'
+        },
+        {
+          Title: 'Quantum computational complexity in the presence of closed timelike curves',
+          Author: 'Dave Bacon',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.70.032309'
+        },
+        {
+          Title: 'Adiabatic quantum computation and quantum phase transitions',
+          Author: 'José Ignacio Latorre and Román Orús',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.69.062302'
+        },
+      ],
+    },
+    {
+      year: '2003',
+      pappers: [
+        {
+          Title: 'Quantum Computing: 1-Way Quantum Automata',
+          Author: 'Alberto Bertoni, Carlo Mereghetti & Beatrice Palano',
+          URL: 'https://link.springer.com/chapter/10.1007/3-540-45007-6_1'
+        },
+        {
+          Title: 'Quantum Computing with an Always-On Heisenberg Interaction',
+          Author: 'Simon C. Benjamin and Sougato Bose',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.90.247901'
+        },
+        {
+          Title: 'Distributed Quantum Computing',
+          Author: 'Harry Buhrman & Hein Röhrig ',
+          URL: 'https://link.springer.com/chapter/10.1007/978-3-540-45138-9_1'
+        },
+        {
+          Title: "One complexity theorist's view of quantum computing",
+          Author: 'Lance Fortnow',
+          URL: 'https://www.sciencedirect.com/science/article/pii/S0304397501003772'
+        },
+        {
+          Title: 'Quantum computation by measurement and quantum memory',
+          Author: 'Michael A. Nielsen',
+          URL: 'https://www.sciencedirect.com/science/article/abs/pii/S0375960102018030'
+        },
+        {
+          Title: 'Topological quantum computation',
+          Author: 'HTML articles powered by AMS MathViewer ',
+          URL: 'https://www.ams.org/journals/bull/2003-40-01/S0273-0979-02-00964-3/'
+        },
+        {
+          Title: 'Quantum Computing with Spin Cluster Qubits',
+          Author: 'Florian Meier, Jeremy Levy, and Daniel Loss',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.90.047901'
+        },
+        {
+          Title: 'Foundation for Quantum Computing',
+          Author: 'S. A. Selesnick ',
+          URL: 'https://link.springer.com/article/10.1023/A:1024410829713'
+        },
+        {
+          Title: 'Toward a scalable, silicon-based quantum computing architecture',
+          Author: 'D. Copsey; M. Oskin; F. Impens; T. Metodiev; A. Cross; F.T. Chong; I.L. Chuang; J. Kubiatowicz',
+          URL: 'https://ieeexplore.ieee.org/abstract/document/1263787'
+        },
+        {
+          Title: 'On the role of entanglement in quantum-computational speed-up',
+          Author: 'Richard Jozsa and Noah Linden',
+          URL: 'https://royalsocietypublishing.org/doi/abs/10.1098/rspa.2002.1097'
+        },
+        {
+          Title: 'Progress in silicon-based quantum computing',
+          Author: 'R. G. Clark, R. Brenner, T. M. Buehler, V. Chan, N. J. Curson, A. S. Dzurak, E. Gauja, H. S. Goan, A. D. Greentree',
+          URL: 'https://royalsocietypublishing.org/doi/abs/10.1098/rsta.2003.1221'
+        },
+        {
+          Title: 'Unconventional Geometric Quantum Computation',
+          Author: 'Shi-Liang Zhu and Z. D. Wang',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.91.187902'
+        },
+        {
+          Title: 'Quantum computing with antiferromagnetic spin clusters',
+          Author: 'Florian Meier, Jeremy Levy, and Daniel Loss',
+          URL: 'https://journals.aps.org/prb/abstract/10.1103/PhysRevB.68.134417'
+        },
+        {
+          Title: 'Hydrogenic Spin Quantum Computing in Silicon: A Digital Approach',
+          Author: 'A. J. Skinner, M. E. Davenport, and B. E. Kane',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.90.087901'
+        },
+        {
+          Title: 'Experimental Application of Decoherence-Free Subspaces in an Optical Quantum-Computing Algorithm',
+          Author: 'M. Mohseni, J. S. Lundeen, K. J. Resch, and A. M. Steinberg',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.91.187903'
+        },
+        {
+          Title: 'Measurement-based quantum computation on cluster states',
+          Author: 'Robert Raussendorf, Daniel E. Browne, and Hans J. Briegel',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.68.022312'
+        },
+        {
+          Title: 'Fault-tolerant quantum computation by anyons',
+          Author: 'A.Yu. Kitaev',
+          URL: 'https://www.sciencedirect.com/science/article/abs/pii/S0003491602000180'
+        },
+        {
+          Title: 'Hybrid Quantum Computing',
+          Author: 'Seth Lloyd ',
+          URL: 'https://link.springer.com/chapter/10.1007/978-94-015-1258-9_5'
+        },
+        {
+          Title: 'Quantum computation with optical coherent states',
+          Author: 'T. C. Ralph, A. Gilchrist, G. J. Milburn, W. J. Munro, and S. Glancy',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.68.042319'
+        },
+      ],
+    },
+    {
+      year: '2002',
+      pappers: [
+        {
+          Title: 'Architecture for a large-scale ion-trap quantum computer',
+          Author: 'D. Kielpinski, C. Monroe & D. J. Wineland ',
+          URL: 'https://www.nature.com/articles/nature00784'
+        },
+        {
+          Title: 'Conservative Quantum Computing',
+          Author: 'Masanao Ozawa',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.89.057902'
+        },
+        {
+          Title: 'Quantum Computing and Communication',
+          Author: 'Paul E. Black, D. Richard Kuhn, Carl J. Williams',
+          URL: 'https://www.sciencedirect.com/science/article/abs/pii/S0065245802800079'
+        },
+        {
+          Title: 'All-Silicon Quantum Computer',
+          Author: 'T. D. Ladd, J. R. Goldman, F. Yamaguchi, Y. Yamamoto, E. Abe, and K. M. Itoh',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.89.017901'
+        },
+        {
+          Title: 'Fermionic Quantum Computation',
+          Author: 'Sergey B. Bravyi , Alexei Yu. Kitaev ',
+          URL: 'https://www.sciencedirect.com/science/article/abs/pii/S0003491602962548'
+        },
+        {
+          Title: 'Quantum Computing by an Optimal Control Algorithm for Unitary Transformations',
+          Author: 'José P. Palao and Ronnie Kosloff',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.89.188301'
+        },
+        {
+          Title: 'Experimental Realization of Quantum Games on a Quantum Computer',
+          Author: 'Jiangfeng Du, Hui Li, Xiaodong Xu, Mingjun Shi, Jihui Wu, Xianyi Zhou, and Rongdian Han',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.88.137902'
+        },
+        {
+          Title: 'General-Purpose Parallel Simulator for Quantum Computing',
+          Author: 'Jumpei Niwa, Keiji Matsumoto & Hiroshi Imai ',
+          URL: 'https://link.springer.com/chapter/10.1007/3-540-45833-6_20'
+        },
+        {
+          Title: 'Efficient quantum computation using coherent states',
+          Author: 'H. Jeong and M. S. Kim',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.65.042305'
+        },
+        {
+          Title: 'Information and computation: Classical and quantum aspects',
+          Author: 'A. Galindo and M. A. Martín-Delgado',
+          URL: 'https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.74.347'
+        },
+        {
+          Title: 'Fullerene-based electron-spin quantum computer',
+          Author: 'Wolfgang Harneit',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.65.032322'
+        },
+        {
+          Title: 'Quantum Computation with Vibrationally Excited Molecules',
+          Author: 'Carmen M. Tesch and Regina de Vivie-Riedle',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.89.157901'
+        },
+        {
+          Title: 'Secure multi-party quantum computation',
+          Author: 'Daniel Gottesman',
+          URL: 'https://dl.acm.org/doi/abs/10.1145/509907.510000'
+        },
+        {
+          Title: 'Scalable Quantum Computing with Josephson Charge Qubits',
+          Author: 'J. Q. You, J. S. Tsai, and Franco Nori',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.89.197902'
+        },
+        {
+          Title: 'Both Toffoli and Controlled-NOT need little help to do universal quantum computation',
+          Author: 'Yaoyun Shi',
+          URL: 'https://arxiv.org/abs/quant-ph/0205115'
+        },
+        {
+          Title: 'Quantum computing classical physics',
+          Author: 'David A. Meyer',
+          URL: 'https://royalsocietypublishing.org/doi/abs/10.1098/rsta.2001.0936'
+        },
+        {
+          Title: 'Quantum computers in phase space',
+          Author: 'César Miquel, Juan Pablo Paz, and Marcos Saraceno',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.65.062309'
+        },
+        {
+          Title: 'Practical Scheme for Quantum Computation with Any Two-Qubit Entangling Gate',
+          Author: 'Michael J. Bremner, Christopher M. Dawson, Jennifer L. Dodd, Alexei Gilchrist, Aram W. Harrow, Duncan Mortimer, Michael A. Nielsen, and Tobias J. Osborne',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.89.247902'
+        },
+        {
+          Title: 'Quantum Computation with Untunable Couplings',
+          Author: 'Xingxiang Zhou, Zheng-Wei Zhou, Guang-Can Guo, and Marc J. Feldman',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.89.197903'
+        },
+        {
+          Title: 'Holonomic quantum computation with neutral atoms',
+          Author: 'A. Recati, T. Calarco, P. Zanardi, J. I. Cirac, and P. Zoller',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.66.032309'
+        },
+      ],
+    },
+    {
+      year: '2001',
+      pappers: [
+        {
+          Title: 'Quantum computing',
+          Author: 'Shu-Shen Li, Gui-Lu Long, Feng-Shan Bai',
+          URL: 'https://www.pnas.org/doi/abs/10.1073/pnas.191373698'
+        },
+        {
+          Title: 'QUANTUM HOLONOMIES FOR QUANTUM COMPUTING',
+          Author: 'JIANNIS PACHOS and PAOLO ZANARDI',
+          URL: 'https://www.worldscientific.com/doi/abs/10.1142/S0217979201004836'
+        },
+        {
+          Title: 'Quantum computing in molecular magnets',
+          Author: 'Michael N. Leuenberger & Daniel Loss ',
+          URL: 'https://www.nature.com/articles/35071024'
+        },
+        {
+          Title: 'NMR quantum computation',
+          Author: 'J.A. Jones',
+          URL: 'https://www.sciencedirect.com/science/article/abs/pii/S0079656500000339'
+        },
+        {
+          Title: 'Basic Concepts in Quantum Computation',
+          Author: 'A. Ekert, P. M. Hayden & H. Inamori ',
+          URL: 'https://link.springer.com/chapter/10.1007/3-540-45338-5_10'
+        },
+        {
+          Title: 'A One-Way Quantum Computer',
+          Author: 'Robert Raussendorf and Hans J. Briegel',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.86.5188'
+        },
+        {
+          Title: 'A scheme for efficient quantum computation with linear optics',
+          Author: 'E. Knill, R. Laflamme & G. J. Milburn ',
+          URL: 'https://www.nature.com/articles/35051009'
+        },
+        {
+          Title: 'Quantum Computing Challenges',
+          Author: 'Jozef Gruska ',
+          URL: 'https://link.springer.com/chapter/10.1007/978-3-642-56478-9_27'
+        },
+        {
+          Title: 'Exchange in Silicon-Based Quantum Computer Architecture',
+          Author: 'Belita Koiller, Xuedong Hu, and S. Das Sarma',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.88.027903'
+        },
+        {
+          Title: 'Quantum computing with quantum-dot cellular automata',
+          Author: 'Géza Tóth and Craig S. Lent',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.63.052315'
+        },
+        {
+          Title: 'Robustness of adiabatic quantum computation',
+          Author: 'Andrew M. Childs, Edward Farhi, and John Preskill',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.65.012322'
+        },
+        {
+          Title: 'TYPE-II QUANTUM COMPUTERS',
+          Author: 'JEFFREY YEPEZ',
+          URL: 'https://www.worldscientific.com/doi/abs/10.1142/S0129183101002668'
+        },
+        {
+          Title: 'Secure assisted quantum computation',
+          Author: 'Andrew M. Childs',
+          URL: 'https://arxiv.org/abs/quant-ph/0111046'
+        },
+        {
+          Title: 'Computational model underlying the one-way quantum computer',
+          Author: 'Robert Raussendorf, Hans Briegel',
+          URL: 'https://arxiv.org/abs/quant-ph/0108067'
+        },
+        {
+          Title: 'Efficient Quantum Computing of Complex Dynamics',
+          Author: 'Giuliano Benenti, Giulio Casati, Simone Montangero, and Dima L. Shepelyansky',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.87.227901'
+        },
+        {
+          Title: 'Quantum Computing Without Local Control of Qubit-Qubit Interactions',
+          Author: 'Simon C. Benjamin',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.88.017904'
+        },
+        {
+          Title: 'Exponential Gain in Quantum Computing of Quantum Chaos and Localization',
+          Author: 'B. Georgeot and D. L. Shepelyansky',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.86.2890'
+        },
+        {
+          Title: 'Quantum computers that can be simulated classically in polynomial time',
+          Author: 'Leslie G. Valiant',
+          URL: 'https://dl.acm.org/doi/abs/10.1145/380752.380785'
+        },
+        {
+          Title: 'Parallel Quantum Computation and Quantum Codes',
+          Author: 'Cristopher Moore and Martin NilssonAUTHORS',
+          URL: 'https://epubs.siam.org/doi/abs/10.1137/S0097539799355053'
+        },
+        {
+          Title: 'Quantum computing with quantum dots on quantum linear supports',
+          Author: 'K. R. Brown, D. A. Lidar, and K. B. Whaley',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.65.012307'
+        },
+        {
+          Title: 'Theory of decoherence-free fault-tolerant universal quantum computation',
+          Author: 'J. Kempe, D. Bacon, D. A. Lidar, and K. B. Whaley',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.63.042307'
+        },
+      ],
+    },
+    {
+      year: '2000',
+      pappers: [
+        {
+          Title: 'An introduction to quantum computing for non-physicists',
+          Author: 'Wolfgang Polak',
+          URL: 'https://dl.acm.org/doi/abs/10.1145/367701.367709'
+        },
+        {
+          Title: 'Silicon-Based Quantum Computation',
+          Author: 'B. E. Kane',
+          URL: 'https://onlinelibrary.wiley.com/doi/abs/10.1002/3527603182.ch17'
+        },
+        {
+          Title: 'Quantum chaos border for quantum computing',
+          Author: 'B. Georgeot and D. L. Shepelyansky',
+          URL: 'https://journals.aps.org/pre/abstract/10.1103/PhysRevE.62.3504'
+        },
+        {
+          Title: 'The Physical Implementation of Quantum Computation',
+          Author: 'David P. DiVincenzo',
+          URL: 'https://onlinelibrary.wiley.com/doi/abs/10.1002/1521-3978(200009)48:9/11%3C771::AID-PROP771%3E3.0.CO;2-E'
+        },
+        {
+          Title: 'Active agents, intelligence and quantum computing',
+          Author: 'Subhash Kak',
+          URL: 'https://www.sciencedirect.com/science/article/pii/S0020025500000438'
+        },
+        {
+          Title: 'Geometric quantum computation',
+          Author: 'Jonathan A. Jones',
+          URL: 'https://www.tandfonline.com/doi/abs/10.1080/09500340008232177'
+        },
+        {
+          Title: 'Addition on a Quantum Computer',
+          Author: 'Thomas G. Draper',
+          URL: 'https://arxiv.org/abs/quant-ph/0008033'
+        },
+        {
+          Title: 'Spintronics and Quantum Dots for Quantum Computing and Quantum Communication',
+          Author: 'Guido Burkard, Hans-Andreas Engel, Daniel Loss',
+          URL: 'https://onlinelibrary.wiley.com/doi/abs/10.1002/1521-3978(200009)48:9/11%3C965::AID-PROP965%3E3.0.CO;2-V'
+        },
+        {
+          Title: 'A scalable quantum computer with ions in an array of microtraps',
+          Author: 'J. I. Cirac & P. Zoller',
+          URL: 'https://www.nature.com/articles/35007021'
+        },
+        {
+          Title: 'Quantum computing with neutral atoms',
+          Author: 'T.calarko',
+          URL: 'https://www.tandfonline.com/doi/abs/10.1080/09500340008244052'
+        },
+        {
+          Title: 'Geometric quantum computation using nuclear magnetic resonance',
+          Author: 'Jonathan A. Jones, Vlatko Vedral, Artur Ekert & Giuseppe Castagnoli ',
+          URL: 'https://www.nature.com/articles/35002528'
+        },
+        {
+          Title: 'Synthesis of Quantum Superpositions by Quantum Computation',
+          Author: 'Lov K. Grover',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.85.1334'
+        },
+        {
+          Title: 'Quantum computing via measurements only',
+          Author: 'Robert Raussendorf, Hans J. Briegel',
+          URL: 'https://arxiv.org/abs/quant-ph/0010033'
+        },
+        {
+          Title: 'Quantum Computation by Adiabatic Evolution',
+          Author: 'Edward Farhi, Jeffrey Goldstone, Sam Gutmann, Michael Sipser',
+          URL: 'https://arxiv.org/abs/quant-ph/0001106'
+        },
+        {
+          Title: 'Quantum to classical phase transition in noisy quantum computers',
+          Author: 'Dorit Aharonov',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.62.062311'
+        },
+        {
+          Title: 'Ion Trap Quantum Computing with Warm Ions',
+          Author: 'G.J. Milburn, S. Schneider, D.F.V. James',
+          URL: 'https://onlinelibrary.wiley.com/doi/abs/10.1002/1521-3978(200009)48:9/11%3C801::AID-PROP801%3E3.0.CO;2-1'
+        },
+        {
+          Title: 'Quantum Computing Using Dissipation to Remain in a Decoherence-Free Subspace',
+          Author: 'Almut Beige, Daniel Braun, Ben Tregenna, and Peter L. Knight',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.85.1762'
+        },
+        {
+          Title: 'Approaching five-bit NMR quantum computing',
+          Author: 'R. Marx, A. F. Fahmy, John M. Myers, W. Bermel, and S. J. Glaser',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.62.012310'
+        },
+        {
+          Title: 'Problem of equilibration and the computation of correlation functions on a quantum computer',
+          Author: 'Barbara M. Terhal and David P. DiVincenzo',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.61.022301'
+        },
+        {
+          Title: 'Multivalued logic gates for quantum computation',
+          Author: 'Ashok Muthukrishnan and C. R. Stroud, Jr.',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.62.052309'
+        },
+      ],
+    },
   ];
   
   export default ResearchPapper;
