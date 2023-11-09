@@ -20,9 +20,9 @@ const Simulator = () => {
         {simulatorsByLanguage.map((languageGroup, index) => (
           <div key={index} className="language-section">
             <div className="languag">
-            <h2
+            <h2 
               onClick={() => toggleLanguage(languageGroup.language)}
-              className={selectedLanguage === languageGroup.language ? 'selected' : ''}
+              className={selectedLanguage === languageGroup.language ? 'selected' : '' }
             >
               {languageGroup.language}
             </h2>
