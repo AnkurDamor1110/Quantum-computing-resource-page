@@ -27,7 +27,7 @@ const Footer = () => {
           <div className='box link'>
             <h3>Quick Links</h3>
             <ul>
-              <li>Guta LAB</li>
+              <li>Gupta LAB</li>
               <li>Research Papper</li>
               <li>Compaies</li>
               <li>Simulators</li>
@@ -42,11 +42,11 @@ const Footer = () => {
 
                 Daiict college, Reliance Cross Rd, Gandhinagar, Gujarat 382007
               </li>
-              <li>
+              {/* <li>
               <i className='fa fa-phone'></i>
 
                 +91 0000000000
-              </li>
+              </li> */}
               <li>
                 <i className='fa fa-paper-plane'></i>
                 info@domain.com

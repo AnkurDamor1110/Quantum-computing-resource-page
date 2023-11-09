@@ -72,10 +72,10 @@ const Navbar = () => {
               <div className="sub-menu">
                 <ul>
                   <li>
-                  <NavLink to="/workingpeopleindia">Working People India</NavLink>
+                  <NavLink to="/workingpeopleindia">National People</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/workingpeople">Working People</NavLink>
+                    <NavLink to="/workingpeople">International People</NavLink>
                   </li>
                 </ul>
                 </div>
