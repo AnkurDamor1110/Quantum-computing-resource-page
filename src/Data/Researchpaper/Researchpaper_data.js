@@ -364,7 +364,7 @@ const ResearchPapper= [
           URL: 'https://www.sciencedirect.com/science/article/abs/pii/S0360544219308254'
         },
         {
-          Title: 'Semiconductor quantum computa',
+          Title: 'Semiconductor quantum computer',
           Author: 'Xin Zhang, Hai-Ou Li, Gang Cao, Ming Xiao, Guang-Can Guo, Guo-Ping Guo',
           URL: 'https://academic.oup.com/nsr/article/6/1/32/5257863'
         },
@@ -372,6 +372,81 @@ const ResearchPapper= [
           Title: 'Validating quantum computers using randomized model circuits',
           Author: 'Andrew W. Cross, Lev S. Bishop, Sarah Sheldon, Paul D. Nation, and Jay M. Gambetta',
           URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.100.032328'
+        },
+        {
+          Title: 'Quantum Computing Circuits and Devices',
+          Author: 'Travis S. Humble; Himanshu Thapliyal; Edgard Muñoz-Coreas; Fahd A. Mohiyaddin; Ryan S. Bennink',
+          URL: 'https://ieeexplore.ieee.org/abstract/document/8681202?casa_token=H3WHd5AtMhUAAAAA:lAlat0EvY9qGU5nUNX2GKAe4WhuwSKvS3eVEAliCZXgcZRG5MaK_QQMXXlRLieV0Q-i3tSNNWg'
+        },
+        {
+          Title: 'Training of quantum circuits on a hybrid quantum computer',
+          Author: 'D. ZHUM M.,BENEDETTI, K. A. LANDSMAN, N. H. NGUYEN  C. H. ALDERETE, A. PERDOMO-ORTIZ, N. KORDA, A. GARFOOT',
+          URL: 'https://www.science.org/doi/full/10.1126/sciadv.aaw9918'
+        },
+        {
+          Title: 'Quantum chemistry as a benchmark for near-term quantum computers',
+          Author: 'Alexander J. McCaskey, Zachary P. Parks, Jacek Jakowski, Shirley V. Moore, Titus D. Morris, Travis S. Humble & Raphael C. Pooser',
+          URL: 'https://www.nature.com/articles/s41534-019-0209-0'
+        },
+        {
+          Title: 'Quantum computing with neutral atoms',
+          Author: 'Mark Saffman',
+          URL: 'https://academic.oup.com/nsr/article/6/1/24/5094563'
+        },
+        {
+          Title: 'Toward large-scale fault-tolerant universal photonic quantum computing Scilightfeatured',
+          Author: 'S. Takeda,ORCID logo,A. Furusawa',
+          URL: 'https://pubs.aip.org/aip/app/article/4/6/060902/123159/Toward-large-scale-fault-tolerant-universal'
+        },
+        {
+          Title: 'Strawberry Fields: A Software Platform for Photonic Quantum Computing',
+          Author: 'Nathan Killoran, Josh Izaac, Nicolás Quesada, Ville Bergholm, Matthew Amy, and Christian Weedbrook',
+          URL: 'https://quantum-journal.org/papers/q-2019-03-11-129/#'
+        },
+        {
+          Title: 'Molecular spins for quantum computation',
+          Author: 'A. Gaita-Ariño, F. Luis, S. Hill & E. Coronado,Nature Chemistry',
+          URL: 'https://www.nature.com/articles/s41557-019-0232-y'
+        },
+        {
+          Title: 'Verification of Quantum Computation: An Overview of Existing Approaches',
+          Author: 'Alexandru Gheorghiu, Theodoros Kapourniotis & Elham Kashefi ',
+          URL: 'https://link.springer.com/article/10.1007/s00224-018-9872-3'
+        },
+        {
+          Title: 'Quantum Algorithms for Systems of Linear Equations Inspired by Adiabatic Quantum Computing',
+          Author: 'Quantum Algorithms for Systems of Linear Equations Inspired by Adiabatic Quantum Computing',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.122.060504'
+        },
+        {
+          Title: 'A Case for Multi-Programming Quantum Computers',
+          Author: 'Poulami Das,Swamit S. Tannu,Prashant J. Nair,Moinuddin Qureshi',
+          URL: 'https://dl.acm.org/doi/abs/10.1145/3352460.3358287?casa_token=zoeS_rHSXaYAAAAA:txe6Gswlfh_sr4Z9KOFxjyJuvVIzL_rbC1ic6KAdjOdNLuCbYcepTkoEPk4N9jffujnXlvVDTDEQ'
+        },
+        {
+          Title: 'Characterizing large-scale quantum computers via cycle benchmarking',
+          Author: 'Alexander Erhard, Joel J. Wallman, Lukas Postler, Michael Meth, Roman Stricker, Esteban A. Martinez, Philipp Schindler, Thomas Monz, Joseph Emerson & Rainer Blatt ',
+          URL: 'https://www.nature.com/articles/s41467-019-13068-7'
+        },
+        {
+          Title: 'Simulating quantum many-body dynamics on a current digital quantum computer',
+          Author: 'Adam Smith, M. S. Kim, Frank Pollmann & Johannes Knolle,npj Quantum Information ',
+          URL: 'https://www.nature.com/articles/s41534-019-0217-0'
+        },
+        {
+          Title: 'σ Models on Quantum Computers',
+          Author: 'Andrei Alexandru, Paulo F. Bedaque, Henry Lamm, and Scott Lawrence (NuQS Collaboration),Phys. Rev. Lett',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.123.090501'
+        },
+        {
+          Title: 'Machine learning methods in quantum computing theory',
+          Author: 'D. V. Fastovets, Yu. I. Bogdanov, B. I. Bantysh, V. F. Lukichev',
+          URL: 'https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11022/110222S/Machine-learning-methods-in-quantum-computing-theory/10.1117/12.2522427.short?SSO=1'
+        },
+        {
+          Title: 'Quantum Computation as Gravity',
+          Author: 'Paweł Caputa and Javier M. Magan,Phys. Rev. Lett.',
+          URL: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.122.231302'
         },
       ],
     },
@@ -527,6 +602,71 @@ const ResearchPapper= [
           Title: 'A functional architecture for scalable quantum computing',
           Author: 'Eyob A. Sete; William J. Zeng,Rigetti Computing, Berkeley, California,Chad T. Rigetti',
           URL: 'https://ieeexplore.ieee.org/abstract/document/7738703'
+        },
+        {
+          Title: 'Quantum computing with atomic qubits and Rydberg interactions: progress and challenges',
+          Author: 'Journal of Physics B: Atomic, Molecular and Optical Physics, ',
+          URL: 'https://iopscience.iop.org/article/10.1088/0953-4075/49/20/202001/meta'
+        },
+        {
+          Title: 'The Path to Scalable Distributed Quantum Computing',
+          Author: 'Rodney Van Meter; Simon J. Devitt,RIKEN Center for Emergent Matter Science',
+          URL: 'https://ieeexplore.ieee.org/abstract/document/7562346?casa_token=rmgf1xqt9tIAAAAA:WV5ZPemjjTpHqntWHxkrEoOuM-IJYGmxTmvHwDgvXluZVWT2JUqPODL9MrxvNsdU7TOPW3mcJA'
+        },
+        {
+          Title: 'Demonstration of measurement-only blind quantum computing',
+          Author: 'Chiara Greganti1, Marie-Christine Roehsner1, Stefanie Barz1,2, Tomoyuki Morimae3 and Philip Walther1',
+          URL: 'https://iopscience.iop.org/article/10.1088/1367-2630/18/1/013020/meta'
+        },
+        {
+          Title: 'Quantum Computing in Big Data Analytics: A Survey',
+          Author: 'Tawseef Ayoub Shaikh; Rashid Ali',
+          URL: 'https://ieeexplore.ieee.org/abstract/document/7876324?casa_token=dnXVnn8dlcQAAAAA:xG1RRl24Vsia879OykRYP8AfP3o7JwSAER36EZkJCi5leBb-OaZg8DhvDMBnetEqWFGWlMVpGw'
+        },
+        {
+          Title: 'Digitized adiabatic quantum computing with a superconducting circuit',
+          Author: 'R. Barends, A. Shabani, L. Lamata, J. Kelly, A. Mezzacapo, U. Las Heras, R. Babbush, A. G. Fowler, B. Campbell, Yu Chen, Z. Chen, B. Chiaro, A. Dunsworth, E. Jeffrey, E. Lucero, A. Megrant, J. Y. Mutus, M. Neeley, C. Neill, P. J. J. O’Malley, C. Quintana, P. Roushan, D. Sank, A. Vainsencher,',
+          URL: 'https://www.nature.com/articles/nature17658'
+        },
+        {
+          Title: 'Prediction by linear regression on a quantum computer',
+          Author: 'Prediction by linear regression on a quantum computer',
+          URL: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.94.022342'
+        },
+        {
+          Title: 'Milestones Toward Majorana-Based Quantum Computing',
+          Author: 'David Aasen, Michael Hell, Ryan V. Mishmash, Andrew Higginbotham, Jeroen Danon, Martin Leijnse, Thomas S. Jespersen, Joshua A. Folk, Charles M. Marcus, Karsten Flensberg, and Jason Alicea',
+          URL: 'https://journals.aps.org/prx/abstract/10.1103/PhysRevX.6.031016'
+        },
+        {
+          Title: 'Cryo-CMOS for quantum computing',
+          Author: 'E. Charbon; F. Sebastiano; A. Vladimirescu; H. Homulle; S. Visser; L. Song; R M. Incandela',
+          URL: 'https://ieeexplore.ieee.org/abstract/document/7838410?casa_token=L1ZQB1-siJwAAAAA:hlx5Jvg1w4qemX91f1lYxRoYa-ZVd1xpXVwb1NWQXy-49mamzkE_-0JioOTWFHUNcvXI2qDQcQ'
+        },
+        {
+          Title: 'Trading Classical and Quantum Computational Resources',
+          Author: 'Sergey Bravyi, Graeme Smith, and John A. Smolin',
+          URL: 'https://journals.aps.org/prx/abstract/10.1103/PhysRevX.6.021043'
+        },
+        {
+          Title: 'One-Way Quantum Computation',
+          Author: 'Dan Browne, Hans Briegel',
+          URL: 'https://onlinelibrary.wiley.com/doi/abs/10.1002/9783527805785.ch21'
+        },
+        {
+          Title: 'Demonstration of a small programmable quantum computer with atomic qubits',
+          Author: 'Demonstration of a small programmable quantum computer with atomic qubits',
+          URL: 'https://www.nature.com/articles/nature18648'
+        },
+        {
+          Title: 'Duality quantum computer and the efficient quantum simulations',
+          Author: 'Shi-Jie Wei & Gui-Lu Long ',
+          URL: 'https://link.springer.com/article/10.1007/s11128-016-1263-6'
+        },
+        {
+          Title: 'A heterogeneous quantum computer architecture',
+          Author: 'X. Fu,L. Riesebos,L. Lao,C. G. Almudever,F. Sebastiano,R. Versluis,E. Charbon,K. Bertels',
+          URL: 'https://dl.acm.org/doi/abs/10.1145/2903150.2906827?casa_token=uz_7sUTCQhYAAAAA:bQ-aXX5corXpr9j1tejKUw8ofrBueYbSp5pNdowXDAPWil0-qwIMhTTSxpnt-eLm7AbZFrWFZDgQ'
         },
       ],
     },
