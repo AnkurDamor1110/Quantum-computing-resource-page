@@ -11,7 +11,9 @@ const Navbar = () => {
       <nav className="main-nav">
         {/* 1st logo part  */}
         <div className="logo">
-        <img src="../images/logo.jpeg"></img>
+        <a href="https://www.guptalab.org/" target="_blank" rel="noopener noreferrer">
+           <img src="../images/logo.jpeg" alt="Logo"></img>
+        </a>
           <h2 className="resource">
          
           <div>
