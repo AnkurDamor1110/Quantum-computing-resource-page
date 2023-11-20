@@ -18,20 +18,16 @@ const Simulator = () => {
     <div className="company">
       <div className="simulator-page">
         {simulatorsByLanguage.map((languageGroup, index) => (
-          <div key={index} className="language-section">
-            <div className="languag">
-            <h2 
-              onClick={() => toggleLanguage(languageGroup.language)}
-              className={selectedLanguage === languageGroup.language ? 'selected' : '' }
-            >
-              {languageGroup.language}
-            </h2>
+          <div key={index} className="year-card">
+            <div className="year-header" onClick={() => toggleLanguage(languageGroup.language)}>
+              <h2>{languageGroup.language}</h2>
+              <i className={`fa ${selectedLanguage === languageGroup.language ? 'fa-caret-up' : 'fa-caret-down'}`}></i>
             </div>
             {selectedLanguage === languageGroup.language && (
               <div className="simulator-container">
                 {languageGroup.simulators.map((simulator, index) => (
-                  <div key={index} className="simulator-card">
-                    <h2>{simulator.name}</h2>
+                  <div key={index} className="simulator-card ">
+                    <h2 className="workshop-name">{simulator.name}</h2>
                     <a href={simulator.url} target="_blank" rel="noopener noreferrer">
                       Visit Simulator
                     </a>

@@ -17,20 +17,20 @@ const Footer = () => {
           <div className='box link'>
             <h3>Team</h3>
             <ul>
-              <li>Ankur Dmaor(202101213)</li>
-              <li>Dhuvin Patel(202101496)</li>
-              <li>Monil Rathod(202101409)</li>
-              <li>Hardik Makwana(202101246)</li>
-              <li>Prince Patil(202101431)</li>
+              <li>Ankur Dmaor</li>
+              <li>Dhuvin Patel</li>
+              <li>Monil Rathod</li>
+              <li>Hardik Makwana</li>
+              <li>Prince Patil</li>
             </ul>
           </div>
           <div className='box link'>
             <h3>Quick Links</h3>
             <ul>
-              <li>Gupta LAB</li>
-              <li>Research Papper</li>
-              <li>Compaies</li>
-              <li>Simulators</li>
+            <li><a href="https://www.guptalab.org/">Gupta LAB</a></li>
+              <li><a href="https://researchpapers.com">YouTube</a></li>
+              <li><a href="https://companies.com">GitHub</a></li>
+              <li><a href="https://simulators.com">Linkden</a></li>
             </ul>
           </div>
          
@@ -38,7 +38,7 @@ const Footer = () => {
             <h3>Have a Questions?</h3>
             <ul>
               <li>
-              <i className='fa fa-map-marker'></i>
+              <i className='fas fa-map-marker'></i>
 
                 Daiict college, Reliance Cross Rd, Gandhinagar, Gujarat 382007
               </li>
@@ -48,8 +48,8 @@ const Footer = () => {
                 +91 0000000000
               </li> */}
               <li>
-                <i className='fa fa-paper-plane'></i>
-                info@domain.com
+              <i className='fas fa-paper-plane'></i>
+                <a href="mailto:quantum_computing@guptalab.org">quantum_computing@guptalab.org</a>
               </li>
             </ul>
           </div>
