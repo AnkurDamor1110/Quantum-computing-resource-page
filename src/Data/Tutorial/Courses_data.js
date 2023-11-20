@@ -62,107 +62,107 @@ const CoursesData =[
   },
   {
     Title: 'Finance & Quantitative Modeling for Analysts Specialization',
-    Author: 'Michael R Roberts ',
+    AuthorName: 'Michael R Roberts ',
     URL: 'https://www.coursera.org/specializations/finance-quantitative-modeling-analysts'
   },
   {
     Title: 'Boltzmann Law: Physics to Computing',
-    Author: 'By Purdue University',
+    AuthorName: 'By Purdue University',
     URL: 'https://www.careers360.com/university/purdue-university-west-lafayette/boltzmann-law-physics-computing-certification-course'
   },
   {
     Title: 'Introduction to Quantum Computing for Everyone 2',
-    Author: 'By UChicago',
+    AuthorName: 'By UChicago',
     URL: 'https://www.careers360.com/university/the-university-of-chicago-chicago/introduction-quantum-computing-for-everyone-2-certification-course'
   },
   {
     Title: 'Applied Quantum Computing III Algorithm and Software',
-    Author: 'By Purdue University, West Lafayette ',
+    AuthorName: 'By Purdue University, West Lafayette ',
     URL: 'https://www.careers360.com/university/purdue-university-west-lafayette/applied-quantum-computing-iii-algorithm-and-software-certification-course'
   },
   {
     Title: 'Understanding Quantum Computers',
-    Author: 'By Keio University, Minato ',
+    AuthorName: 'By Keio University, Minato ',
     URL: 'https://www.careers360.com/university/keio-university-minato/understanding-quantum-computers-certification-course'
   },
   {
     Title: 'Introduction to Quantum Computing: Quantum Algorithms and Qiskit',
-    Author: 'By IIT Madras   ',
+    AuthorName: 'By IIT Madras   ',
     URL: 'https://www.careers360.com/university/indian-institute-of-technology-madras/introduction-quantum-computing-quantum-algorithms-and-qiskit-certification-course'
   },
   {
     Title: 'Quantum Computer Systems Design III Working with Noisy Systems',
-    Author: 'By UChicago',
+    AuthorName: 'By UChicago',
     URL: 'https://www.careers360.com/university/the-university-of-chicago-chicago/quantum-computer-systems-design-iii-working-noisy-systems-certification-course'
   },
   {
     Title: 'Quantum Computer Systems Design II Principles of Quantum Architecture ',
-    Author: 'By UChicago',
+    AuthorName: 'By UChicago',
     URL: 'https://www.careers360.com/university/the-university-of-chicago-chicago/quantum-computer-systems-design-ii-principles-of-quantum-architecture-certification-course'
   },
   {
     Title: 'Fundamentals of Quantum Information',
-    Author: 'By Delft University of Technology',
+    AuthorName: 'By Delft University of Technology',
     URL: 'https://www.careers360.com/university/delft-university-of-technology/fundamentals-of-quantum-information-certification-course' 
   },
   {
     Title: 'Quantum Computer Systems Design I Intro to Quantum Computation and Programming ',
-    Author: 'By UChicago',
+    AuthorName: 'By UChicago',
     URL: 'https://www.careers360.com/university/the-university-of-chicago-chicago/quantum-computer-systems-design-i-intro-quantum-computation-and-programming-certification-course'
   },
   {
     Title: 'Quantum Computing for Your Classroom 10-12',
-    Author: 'By The University of British Columbia, Vancouver ',
+    AuthorName: 'By The University of British Columbia, Vancouver ',
     URL: 'https://www.careers360.com/university/the-university-of-british-columbia-vancouver/quantum-computing-for-your-classroom-10-12-certification-course'
   },
   {
     Title: 'QC101 Quantum Computing & Intro to Quantum Machine Learning',
-    Author: 'Udemy',
+    AuthorName: 'Udemy',
     URL: 'https://www.careers360.com/courses-certifications/udemy-qc101-quantum-computing-intro-quantum-machine-learning-course'
   },
   {
     Title: 'QC051: Math Prerequisites for QC - Content moved to QC101',
-    Author: 'Udemy',
+    AuthorName: 'Udemy',
     URL: 'https://www.careers360.com/courses-certifications/udemy-qc051-math-prerequisites-for-quantum-computing-course'
   },
   {
     Title: 'The Complete Quantum Computing Course',
-    Author: 'Udemy',
+    AuthorName: 'Udemy',
     URL: 'https://www.careers360.com/courses-certifications/udemy-complete-quantum-computing-course'
   },
   {
     Title: 'Quantum Computing',
-    Author: 'By Prof. Debabrata Goswami   |   IIT Kanpur',
+    AuthorName: 'By Prof. Debabrata Goswami   |   IIT Kanpur',
     URL: 'https://www.classcentral.com/course/swayam-quantum-computing-7973'
   },
   {
     Title: 'Basics of quantum information',
-    Author: 'Created by John Watrous',
+    AuthorName: 'Created by John Watrous',
     URL: 'https://learning.quantum-computing.ibm.com/course/basics-of-quantum-information'
   },
   {
     Title: 'QUANTUM COMPUTING FUNDAMENTALS',
-    Author: 'BY MIT xPRO ',
+    AuthorName: 'BY MIT xPRO ',
     URL: 'https://learn-xpro.mit.edu/quantum-computing'
   },
   {
     Title: 'Quantum Computing',
-    Author: 'Microsoft,Alphabet X',
+    AuthorName: 'Microsoft,Alphabet X',
     URL: 'https://brilliant.org/courses/quantum-computing/'
   },
   {
     Title: 'Introduction to Quantum Computing',
-    Author: 'Udemy',
+    AuthorName: 'Udemy',
     URL: 'https://www.udemy.com/course/introduction-to-quantum-computing/'
   },
   {
     Title: 'Quantum Computing A-Z',
-    Author: 'Udemy',
+    AuthorName: 'Udemy',
     URL: 'https://www.udemy.com/course/quantum-computing-az/'
   },
   {
     Title: 'Quantum Computing for Beginners',
-    Author: 'Udemy',
+    AuthorName: 'Udemy',
     URL: 'https://www.udemy.com/course/quantum-computing-quantum-physics/'
   }
 ];
