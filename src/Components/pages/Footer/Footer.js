@@ -28,9 +28,9 @@ const Footer = () => {
             <h3>Quick Links</h3>
             <ul>
             <li><a href="https://www.guptalab.org/">Gupta LAB</a></li>
-              <li><a href="https://researchpapers.com">YouTube</a></li>
-              <li><a href="https://companies.com">GitHub</a></li>
-              <li><a href="https://simulators.com">Linkden</a></li>
+              <li><a href="https://www.youtube.com/c/ManishGuptamankg">YouTube</a></li>
+              <li><a href="https://github.com/guptalab">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/company/guptalab/">Linkedin</a></li>
             </ul>
           </div>
          
