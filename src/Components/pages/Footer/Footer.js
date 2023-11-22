@@ -37,16 +37,13 @@ const Footer = () => {
           <div className='box last'>
             <h3>Have a Questions?</h3>
             <ul>
-              <li>
-              <i className='fas fa-map-marker'></i>
-
-                Daiict college, Reliance Cross Rd, Gandhinagar, Gujarat 382007
+            <li>
+                <i className='fas fa-map-marker'></i>
+                <a href='https://www.google.com/maps/place/Gupta+Lab/@23.1893849,72.628436,15z/data=!4m6!3m5!1s0x395c2a3c98817075:0x504d15432808513a!8m2!3d23.1893849!4d72.628436!16s%2Fg%2F11j8gy40w4?entry=ttu' target='_blank' rel='noopener noreferrer'>
+                  4, Faculty Block 2, Room 2212, Post Bag, Daiict college Near, Indroda Cir, Gandhinagar, Gujarat 382007
+                
+                </a>
               </li>
-              {/* <li>
-              <i className='fa fa-phone'></i>
-
-                +91 0000000000
-              </li> */}
               <li>
               <i className='fas fa-paper-plane'></i>
                 <a href="mailto:quantum_computing@guptalab.org">quantum_computing@guptalab.org</a>

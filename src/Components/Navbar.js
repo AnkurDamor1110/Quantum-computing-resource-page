@@ -91,44 +91,19 @@ const Navbar = () => {
 
         {/* 3rd social media links */}
         <div className="social-media">
-          <ul className="social-media-desktop">
-            <li>
-              <a
-                href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
-                target="_thapa">
-                {/* <FaFacebookSquare className="facebook" /> */}
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.instagram.com/thapatechnical/"
-                target="_thapa">
-                {/* <FaInstagramSquare className="instagram" /> */}
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
-                target="_thapa">
-                {/* <FaYoutubeSquare className="youtube" /> */}
-              </a>
-            </li>
-          </ul>
+          
 
           {/* hamburget menu start  */}
           <div className="hamburger-menu">
-            <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
+          <button className="hamburger-button"  onClick={() => setShowMediaIcons(!showMediaIcons)}>
               <GiHamburgerMenu />
-            </a>
+            </button>
+
           </div>
         </div>
       </nav>
 
-      {/* hero section  */}
-      {/* <section className="hero-section">
-        <p>Welcome to </p>
-        <h1>Thapa Technical</h1>
-      </section> */}
+     
     </>
   );
 };

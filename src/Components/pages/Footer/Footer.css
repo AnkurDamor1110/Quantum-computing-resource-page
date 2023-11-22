@@ -101,3 +101,21 @@
     color: #0c356a;
   }
   
+  .box.link ul li a {
+    color: #333; 
+    text-decoration: none;
+    transition: color 0.3s ease; 
+  }
+  
+  .box.link ul li a:hover {
+    color: #007bff; 
+  }
+  .last ul li a{
+    color: #333; 
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .last ul li a:hover{
+    color: #007bff; 
+  }
