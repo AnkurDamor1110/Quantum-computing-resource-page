@@ -12,16 +12,17 @@ const Footer = () => {
           <div className='box logo2'>
             <h1>Resources Quantum Computing</h1>
             <span>ONLINE EDUCATION & LEARNING</span>
-            {/* <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> */}
+           
+           
           </div>
           <div className='box link'>
             <h3>Team</h3>
             <ul>
               <li><a href="https://www.linkedin.com/in/ankurdamor/">Ankur Damor</a></li>
               <li><a href="https://www.linkedin.com/in/dhruvin-patel-799a182a0/">Dhruvin Patel</a></li>
-              <li><a href="#">Monil Rathod</a></li>
-              <li><a href="#">Hardik Makwana</a></li>
-              <li><a href="#">Prince Patil</a></li>
+              <li><a href="https://www.linkedin.com/in/monil-rathod-3554ab2a1">Monil Rathod</a></li>
+              <li><a href="https://www.linkedin.com/in/hardik-makwana-b303632a1/">Hardik Makwana</a></li>
+              <li><a href="https://www.linkedin.com/in/prince-patil-a152652a1/">Prince Patil</a></li>
             </ul>
           </div>
           <div className='box link'>
@@ -38,11 +39,11 @@ const Footer = () => {
             <h3>Disclaimer</h3>
             <ul>
             <li>
-              <i>&#x26A1;</i>   {/*icon has to be added*/}
+            <i className='fas fa-bolt'></i>  {/*icon has to be added*/}
                 <p className="Disclaimer">This is an ongoing project, and the website currently lacks complete data. If you have any suggestions for adding data, please email us at the address below.</p>
               </li>
               <li>
-              <i className='fas fa-paper-plane'></i>
+              <i className='fas fa-envelope'></i>
                 <a href="mailto:quantum_computing@guptalab.org">quantum_computing@guptalab.org</a>
               </li>
             </ul>
