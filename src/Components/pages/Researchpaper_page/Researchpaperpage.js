@@ -3,41 +3,42 @@ import papperData from '../../../Data/Researchpaper/Researchpaper_data'; // Impo
 import './Researchpaper.css';
 
 const ResearchPapers = () => {
-  const [selectedYear, setSelectedYear] = useState(papperData[0].year); // Open the first year initially
+  const years = papperData.map((yearGroup) => yearGroup.year); // Extract years from data
+  const [selectedYear, setSelectedYear] = useState(years[0]);
 
   const toggleYear = (year) => {
-    if (selectedYear === year) {
-      // Clicked the same year again, so clear the selection
-      setSelectedYear(null);
-    } else {
-      setSelectedYear(year);
-    }
+    setSelectedYear(selectedYear === year ? null : year);
   };
 
   return (
     <div className="company">
       <div className="research-paper-page">
-        {papperData.map((yearGroup, index) => (
-          <div key={index} className="year-card">
-            <div className="year-header" onClick={() => toggleYear(yearGroup.year)}>
-              <h2>{yearGroup.year}</h2>
-              <i className={`fa ${selectedYear === yearGroup.year ? 'fa-caret-up' : 'fa-caret-down'}`}></i>
+        <div className="year-selection">
+          {years.map((year, index) => (
+            <div
+              key={index}
+              className={`year-button ${selectedYear === year ? 'selected' : ''}`}
+              onClick={() => toggleYear(year)}
+            >
+              {year}
             </div>
-            {selectedYear === yearGroup.year && (
-              <div className="paper-container">
-                {yearGroup.pappers.map((paper, index) => (
-                  <div key={index} className="paper-card">
-                    <h2 className="workshop-name">Title: {paper.Title}</h2>
-                    <h4 className="workshop-organization">Author: {paper.Author}</h4>
-                    <a href={paper.URL} target="_blank" rel="noopener noreferrer">
-                      Read More
-                    </a>
-                  </div>
-                ))}
-              </div>
-            )}
+          ))}
+        </div>
+        {selectedYear && (
+          <div className="paper-container">
+            {papperData
+              .find((yearGroup) => yearGroup.year === selectedYear)
+              .pappers.map((paper, index) => (
+                <div key={index} className="paper-card">
+                  <h2 className="workshop-name">Title: {paper.Title}</h2>
+                  <h4 className="workshop-organization">Author: {paper.Author}</h4>
+                  <a href={paper.URL} target="_blank" rel="noopener noreferrer">
+                    Read More
+                  </a>
+                </div>
+              ))}
           </div>
-        ))}
+        )}
       </div>
     </div>
   );

@@ -54,6 +54,25 @@
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.947); 
     } 
 
+    .year-button {
+      cursor: pointer;
+      padding: 10px;
+      margin: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    
+    .year-button:hover {
+      background-color: #007bff;
+      transform: translateY(-10px); 
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.947); 
+    }
+    .year-selection{
+      display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
 
     @media (max-width: 520px) {
       .paper-card a {
