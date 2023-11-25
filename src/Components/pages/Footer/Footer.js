@@ -40,7 +40,7 @@ const Footer = () => {
             <ul>
             <li>
             <i className='fas fa-bolt'></i>  {/*icon has to be added*/}
-                <p className="Disclaimer">This is an ongoing project, and the website currently lacks complete data. If you have any suggestions for adding data, please email us at the address below.</p>
+                <p className="Disclaimer">This is an ongoing project, and the website does not contain complete data. If you have any suggestions for adding data, please email us at the address below.</p>
               </li>
               <li>
               <i className='fas fa-envelope'></i>
