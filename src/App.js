@@ -166,7 +166,7 @@ const App = () => {
         <Route path="/companies" element={<Companies />} />
         <Route path="/researchpapers" element={<Researchpapers />} />
         <Route path="/tools" element={<Tools />} />
-        <Route path="/tutorials" element={<Tutorials />} />
+        {/* <Route path="/tutorials" element={<Tutorials />} /> */}
       
         <Route path="/youtubecontent" element={<YouTubeContent />} />
         <Route path="/courses" element={<Courses />} />
