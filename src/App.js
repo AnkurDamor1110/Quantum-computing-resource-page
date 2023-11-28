@@ -63,17 +63,6 @@ const Tools = () => {
   );
 };
 
-const Tutorials = () => {
-  return (
-    <>
-      <Navbar />
-      <section className="hero-section">
-        <p>Welcome to </p>
-        <h1></h1>
-      </section>
-    </>
-  );
-};
 
 const YouTubeContent = () => {
   return (
