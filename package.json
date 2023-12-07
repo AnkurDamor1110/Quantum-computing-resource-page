@@ -1,5 +1,6 @@
 {
   "name": "resource_page",
+  "homepage":"https://guptalab.org/quantum/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
